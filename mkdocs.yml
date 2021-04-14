@@ -1,0 +1,8 @@
+site_name: Gama Boyle Lab
+
+theme:
+  name: null
+  custom_dir: 'cinder'
+  # colorscheme: dracula
+nav:
+  - Home: index.md
