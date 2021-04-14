@@ -1,18 +1,18 @@
-# Gama Boyle Lab
+# <center> Gama Boyle Lab
 
-Testando
+<br>
 
+<div align="justify">Repositório destinado à documentação do núcleo de Software do <b>projeto Gama Boyle Lab</b>, para a matéria Projeto Integrador I, da Universidade de Brasília, Campus do Gama.
+<br><br>
 
-## Commands
+O objetivo do produto Gama Boyle Lab é auxiliar estudantes na execução de experimentos da áreade Química de maneira remota. Para alcançar este objetivo, é proposto um artefato que consiste em uma estrutura de componentes eletrônicos controlados remotamente por um software dedicado.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+<br></div>
 
-## Project layout
+## Equipe
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Estrutura
+
+### Eletrônica
+
+### Software

@@ -6,3 +6,4 @@ theme:
   # colorscheme: dracula
 nav:
   - Home: index.md
+  - Perfil de usuário: template.md
