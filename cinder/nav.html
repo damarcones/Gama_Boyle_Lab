@@ -57,6 +57,7 @@
                     {%- endif %}
                 {%- endblock %}
 
+                <!-- 
                 {%- block next_prev %}
                     {%- if page and (page.next_page or page.previous_page) and not config.theme.disable_nav_previous_next %}
                     <li {% if not page.previous_page %}class="disabled"{% endif %}>
@@ -70,7 +71,7 @@
                         </a>
                     </li>
                     {%- endif %}
-                {%- endblock %}
+                {%- endblock %} -->
 
                 {%- block repo %}
                     {%- if page and page.edit_url %}

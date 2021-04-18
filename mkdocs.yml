@@ -1,4 +1,4 @@
-site_name: <img "imagens/favicon.ico">
+site_name: HOME
 
 
 theme:
@@ -7,7 +7,7 @@ theme:
   # colorscheme: dracula
 nav:
   - Visão geral: visao-geral.md
-  - Perfil de usuário:
+  - Perfil usuário:
     - Perfil de usuário: ihc/perfil-de-usuario.md
     - Personas: ihc/personas.md
   - Análise de Requisitos:
@@ -19,8 +19,21 @@ nav:
     - Protótipo de baixa-fidelidade: ihc/prototipo-baixa.md
     - Protótipo de alta-fidelidade: ihc/prototipo-alta.md
   - Pré-rastreabilidade:
-    - Elicitação: index.md
-  - Modelagem: index.md
+    - RichPictures: requisitos/rich-pictures.md
+    - Plano de gerenciamento de riscos: requisitos/plano-riscos.md
+    - Estimativas: requisitos/estimativas.md
+  - Requisitos: requisitos/requisitos.md
+  - Modelagem:
+    - Léxico: requisitos/lexico.md
+    - NFR: requisitos/nfr.md
+    - Casos de Uso: requisitos/casos-uso.md
+    - Diagramas de Casos de Uso: diagramas/diagrama-casos-uso.md
+    - Diagrama de Classes: diagramas/diagrama-classes.md
+    - Diagrama de Componentes: diagramas/diagrama-componentes.md
+    - Diagrama de Pacotes: diagramas/diagrama-pacotes.md
+    - Diagrama de Comunicação: diagramas/diagrama-comunicacao.md
+    - Diagrama de Atividades: diagramas/diagrama-atividades.md
+    - Diagrama de Estado: diagramas/diagrama-estado.md
   - Padrões:
     - Padrões GRASP: desenho/grasp.md
     - Padrões GoF: desenho/gof.md
