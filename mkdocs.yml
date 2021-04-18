@@ -1,9 +1,27 @@
-site_name: Gama Boyle Lab
+site_name: <img "imagens/favicon.ico">
+
 
 theme:
   name: null
   custom_dir: 'cinder'
   # colorscheme: dracula
 nav:
-  - Home: index.md
-  - Perfil de usuário: template.md
+  - Visão geral: visao-geral.md
+  - Perfil de usuário:
+    - Perfil de usuário: ihc/perfil-de-usuario.md
+    - Personas: ihc/personas.md
+  - Análise de Requisitos:
+    - Características da plataforma: ihc/caracteristicas-plataforma.md
+    - Princípios e diretrizes do projeto: ihc/principios-diretrizes.md
+    - Metas de usabilidade: ihc/metas-usabilidade.md
+    - Guia de estilo: ihc/guia-estilo.md
+  - Protótipos:
+    - Protótipo de baixa-fidelidade: ihc/prototipo-baixa.md
+    - Protótipo de alta-fidelidade: ihc/prototipo-alta.md
+  - Pré-rastreabilidade:
+    - Elicitação: index.md
+  - Modelagem: index.md
+  - Padrões:
+    - Padrões GRASP: desenho/grasp.md
+    - Padrões GoF: desenho/gof.md
+      
