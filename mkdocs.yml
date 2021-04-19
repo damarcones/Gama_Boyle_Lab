@@ -37,4 +37,5 @@ nav:
   - Padrões:
     - Padrões GRASP: desenho/grasp.md
     - Padrões GoF: desenho/gof.md
+  - v: template.md
       
