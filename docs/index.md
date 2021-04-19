@@ -20,7 +20,7 @@ Esta WIKI tem a finalidade de documentar os artefatos ligados à estrutura do So
 
   <figure style="float:left;margin-right:16px;">
     <a href="https://github.com/brunaalmeidasantos" target="_blank" style="text-decoration: none">
-      <img src="https://avatars.githubusercontent.com/u/42985614?v=4" alt="drawing" style="width:100px;border-radius: 50%;"/>
+      <img src="https://avatars.githubusercontent.com/u/42985614?v=4" alt="drawing" style="width:100px;border-radius: 50%;" id="../cinder/css/bootstrap-custom.css"/>
     </a>
     <figcaption>Bruna<br>Almeida</figcaption>
   </figure>
@@ -88,6 +88,7 @@ Esta WIKI tem a finalidade de documentar os artefatos ligados à estrutura do So
 
 ### Líderes
 
-|Product Owners|Scrum Masters|Gerente|Vice-gerente|
-|:--:|:--:|:--:|:--:|
-|Ana Luiza Brito<br>Renata Freitas|Matheus de Avila<br>Rodrigo Balbino|Damarcones Porto|Thiago|
+|<font size="4" align="center">Product Owners</font>|<font size="4" align="center">Scrum Masters</font>|<font size="4" align="center">Gerente</font>|<font size="4" align="center">Vice-gerente</font>|
+|:---|:---|:---|:---|
+|<font size="4" align="center">Ana Luiza Brito<br>Renata Freitas</h5>|<font size="4" align="center">Matheus de Avila</font><br><font size="4" align="center">Rodrigo Balbino</font>|<font size="4" align="center">Damarcones Porto</font>|<font size="4" align="center">Thiago</font>|
+
