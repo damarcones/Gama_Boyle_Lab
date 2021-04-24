@@ -35,6 +35,4 @@ nav:
     - Diagrama de Estado: diagramas/diagrama-estado.md
   - Padrões:
     - Padrões GRASP: desenho/grasp.md
-    - Padrões GoF: desenho/gof.md
-  - v: template.md
-      
+    - Padrões GoF: desenho/gof.md    

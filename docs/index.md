@@ -1,11 +1,13 @@
 # <center> GAMA BOYLE LAB
 
+<p align = "center"><img src="./imagens/Boyle_logo.png" width="400"></p>
+
 <br>
 
 <div align="justify">Repositório destinado à documentação do núcleo de Software do projeto <b>Gama Boyle Lab</b>, para a matéria Projeto Integrador I, da Universidade de Brasília, Campus do Gama.
 <br><br>
 
-O objetivo do produto Gama Boyle Lab é auxiliar estudantes na execução de experimentos da áreade Química de maneira remota. Para alcançar este objetivo, é proposto um artefato que consiste em uma estrutura de componentes eletrônicos controlados remotamente por um software dedicado.
+O objetivo do produto Gama Boyle Lab é auxiliar estudantes na execução de experimentos da área de Química de maneira remota. Para alcançar este objetivo, é proposto um artefato que consiste em uma estrutura de componentes eletrônicos controlados remotamente por um software dedicado.
 <br><br>
 
 Esta WIKI tem a finalidade de documentar os artefatos ligados à estrutura do Software, que será a ponte entre o equipamento físico e os usuários que estarão envolvidos nos experimentos.
@@ -41,7 +43,7 @@ Esta WIKI tem a finalidade de documentar os artefatos ligados à estrutura do So
 
 <figure style="float:left;margin-right:16px;">
   <a href="https://github.com/isadoragalvaoss" target="_blank" style="text-decoration: none">
-    <img src="https://avatars.githubusercontent.com/u/42985614?v=4" alt="drawing" style="width:100px;border-radius: 50%;"/>
+    <img src="imagens/isadora.jpg" alt="drawing" style="width:100px;border-radius: 50%;"/>
   </a>
   <figcaption align="center">Isadora<br>Galvão</figcaption>
 </figure>
@@ -83,12 +85,12 @@ Esta WIKI tem a finalidade de documentar os artefatos ligados à estrutura do So
 * Leonardo Takehana
 * Letícia Ribeiro
 * Rodrigo Balbino
-* Thiago
+* Thiago Sampaio
 * Victor Hugo
 
 ### Líderes
 
 |<font size="4" align="center">Product Owners</font>|<font size="4" align="center">Scrum Masters</font>|<font size="4" align="center">Gerente</font>|<font size="4" align="center">Vice-gerente</font>|
 |:---|:---|:---|:---|
-|<font size="4" align="center">Ana Luiza Brito<br>Renata Freitas</h5>|<font size="4" align="center">Matheus de Avila</font><br><font size="4" align="center">Rodrigo Balbino</font>|<font size="4" align="center">Damarcones Porto</font>|<font size="4" align="center">Thiago</font>|
+|<font size="4" align="center">Ana Luiza Brito<br>Renata Freitas</h5>|<font size="4" align="center">Matheus de Avila</font><br><font size="4" align="center">Rodrigo Balbino</font>|<font size="4" align="center">Damarcones Porto</font>|<font size="4" align="center">Thiago Sampaio</font>|
 
