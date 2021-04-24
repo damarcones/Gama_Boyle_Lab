@@ -272,12 +272,6 @@
                     </li>
                 
                 
-                
-                    <li >
-                        <a href="../../template/">v</a>
-                    </li>
-                
-                
                 </ul>
 
             <ul class="nav navbar-nav navbar-right">
@@ -308,12 +302,261 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#casos-de-uso"> CASOS DE USO</a></li>
+        <li class="first-level active"><a href="#especificacao-de-casos-de-uso">Especificação de casos de uso</a></li>
+        <li class="first-level "><a href="#uc01-cadastrar-aluno">UC01: Cadastrar Aluno</a></li>
+        <li class="first-level "><a href="#uc02-autenticar-usuarios">UC02: Autenticar usuários</a></li>
+        <li class="first-level "><a href="#uc03-cadastrar-professor">UC03: Cadastrar Professor</a></li>
+        <li class="first-level "><a href="#uc04-desconectar-usuarios">UC04: Desconectar usuários</a></li>
+        <li class="first-level "><a href="#uc05-visualizar-experimento">UC05: Visualizar experimento</a></li>
+        <li class="first-level "><a href="#uc06-visualizar-todos-os-experimentos">UC06: Visualizar todos os experimentos</a></li>
+        <li class="first-level "><a href="#uc07-iniciar-aula-de-experimentos">UC07: Iniciar aula de experimentos</a></li>
+        <li class="first-level "><a href="#uc08-encerrar-aula-de-experimentos">UC08: Encerrar aula de experimentos</a></li>
+        <li class="first-level "><a href="#uc09-visualizar-a-lista-de-alunos">UC09: Visualizar a lista de alunos</a></li>
+        <li class="first-level "><a href="#uc10-pausar-experimento">UC10: Pausar experimento</a></li>
+        <li class="first-level "><a href="#uc11-retomar-experimento">UC11: Retomar experimento</a></li>
+        <li class="first-level "><a href="#uc12-responder-duvida">UC12: Responder dúvida</a></li>
+        <li class="first-level "><a href="#uc13-cadastrar-duvida">UC13: Cadastrar dúvida</a></li>
+        <li class="first-level "><a href="#uc14-controlar-equipamento-experimental">UC14: Controlar equipamento experimental</a></li>
+        <li class="first-level "><a href="#uc15-concluir-experimento">UC15: Concluir experimento</a></li>
+        <li class="first-level "><a href="#uc16-solicitar-auxilio-do-tecnico">UC16: Solicitar auxílio do técnico</a></li>
+        <li class="first-level "><a href="#uc17-regular-equipamento">UC17: Regular equipamento</a></li>
+        <li class="first-level "><a href="#uc18-responder-solicitacao">UC18: Responder solicitação</a></li>
+        <li class="first-level "><a href="#uc19-pausa-de-emergencia">UC19: Pausa de emergência</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="casos-de-uso"><center> CASOS DE USO</h1></div>
+<h1 id="especificacao-de-casos-de-uso">Especificação de casos de uso</h1>
+<h1 id="uc01-cadastrar-aluno">UC01: Cadastrar Aluno</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao aluno se cadastrar na plataforma.</p>
+<p><strong>Ator principal:</strong> Aluno</p>
+<p><strong>Pré condições:</strong> O aluno deve estar desconectado de uma conta antes de iniciar o cadastro.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o usuário escolhe a opção de cadastrar uma nova conta.</p>
+<ol>
+<li>O sistema redireciona o usuário para a tela de cadastro.</li>
+<li>O usuário preenche os campos com as informações necessárias para realizar o cadastro.</li>
+<li>O usuário confirma a realização do castro.</li>
+<li>O sistema valida os dados informados pelo usuário.</li>
+<li>O sistema exibe uma mensagem de cadastro efetuado com sucesso.</li>
+<li>O usuário é redirecionado para a tela de <em>log in</em>.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc02-autenticar-usuarios">UC02: Autenticar usuários</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite aos usuários se autenticarem na plataforma.</p>
+<p><strong>Ator principal:</strong> Aluno, Professor, Técnico</p>
+<p><strong>Pré condições:</strong> O usuário deve estar desconectado de uma conta antes de iniciar a autenticação.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o usuário escolhe a opção de entrar em uma conta.</p>
+<ol>
+<li>O sistema redireciona o usuário para a tela de autenticação.</li>
+<li>O usuário preenche os campos com as informações necessárias para realizar a autenticação.</li>
+<li>O usuário confirma a realização de autenticação.</li>
+<li>O sistema valida os dados informados pelo usuário.</li>
+<li>O usuário é redirecionado para a tela principal do sistema.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc03-cadastrar-professor">UC03: Cadastrar Professor</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite aos técnicos cadastrarem um professor.</p>
+<p><strong>Ator principal:</strong> Técnico</p>
+<p><strong>Pré condições:</strong> O usuário deve estar autenticado em uma conta antes de iniciar o cadastro.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o usuário escolhe a opção cadastrar um novo professor.</p>
+<ol>
+<li>O sistema redireciona o técnico para a tela de cadastro de professor.</li>
+<li>O técnico preenche os campos com as informações necessárias para realizar o cadastro.</li>
+<li>O técnico confirma a realização do cadastro.</li>
+<li>O sistema valida os dados informados pelo técnico.</li>
+<li>O sistema exibe uma mensagem de cadastro efetuado com sucesso.</li>
+<li>O usuário é redirecionado para a tela principal do sistema.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc04-desconectar-usuarios">UC04: Desconectar usuários</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite aos usuários se desconectarem da conta.</p>
+<p><strong>Ator principal:</strong> Aluno, Professor, Técnico</p>
+<p><strong>Pré condições:</strong> O usuário deve estar autenticado em uma conta antes de se desconectar.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o usuário escolhe a opção desconectar.</p>
+<ol>
+<li>O sistema informa ao usuário se realmente deseja se desconectar.</li>
+<li>O usuário confirma.</li>
+<li>O usuário é redirecionado para a tela de autenticação.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc05-visualizar-experimento">UC05: Visualizar experimento</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao aluno visualizar a imagem da webcam que está monitorando um de seus experimentos que está ocorrendo.</p>
+<p><strong>Ator principal:</strong> Aluno</p>
+<p><strong>Pré condições:</strong> O aluno deve estar autenticado em uma conta antes de visualizar o experimento; o aluno deve começar um experimento; o professor deve ter começado a aula de experimentos.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o aluno escolhe a opção começar experimento.</p>
+<ol>
+<li>O sistema redireciona o aluno para a tela de experimento.</li>
+<li>Na tela de experimento, o sistema exibe a imagem da webcam transmitida.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc06-visualizar-todos-os-experimentos">UC06: Visualizar todos os experimentos</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao professor visualizar as imagens das câmeras que estão monitorando todos os experimentos que estão acontecendo.</p>
+<p><strong>Ator principal:</strong> Professor</p>
+<p><strong>Pré condições:</strong> O professor deve estar autenticado em uma conta antes de visualizar os experimentos.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o professor escolhe a opção mostrar todos os experimentos.</p>
+<ol>
+<li>O sistema redireciona o professor para a tela de experimentos.</li>
+<li>Na tela de experimentos, o sistema exibe as imagens das câmeras transmitidas, de todos os experimentos que estão acontecendo no momento.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc07-iniciar-aula-de-experimentos">UC07: Iniciar aula de experimentos</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao professor iniciar uma aula de experimentos.</p>
+<p><strong>Ator principal:</strong> Professor</p>
+<p><strong>Pré condições:</strong> O professor deve estar autenticado em uma conta antes de iniciar uma aula.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o professor escolhe a opção começar aula.</p>
+<ol>
+<li>O sistema informa ao professor se realmente deseja iniciar a aula.</li>
+<li>O professor confirma.</li>
+<li>O sistema redireciona o professor para a tela de de experimentos.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc08-encerrar-aula-de-experimentos">UC08: Encerrar aula de experimentos</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao professor encerrar uma aula de experimentos.</p>
+<p><strong>Ator principal:</strong> Professor</p>
+<p><strong>Pré condições:</strong> O professor deve estar autenticado em uma conta antes de encerrar uma aula; o professor deve ter iniciado uma aula antes de encerrar esta aula.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o professor escolhe a opção encerrar aula.</p>
+<ol>
+<li>O sistema informa ao professor se realmente deseja encerrar a aula.</li>
+<li>O professor confirma.</li>
+<li>O sistema exibe uma mensagem de sucesso.</li>
+<li>O sistema redireciona o professor para a tela inicial.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc09-visualizar-a-lista-de-alunos">UC09: Visualizar a lista de alunos</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao professor ou técnico visualizar a lista de alunos.</p>
+<p><strong>Ator principal:</strong> Professor, Técnico</p>
+<p><strong>Pré condições:</strong> O professor ou técnico deve estar autenticado em uma conta antes de visualizar a lista de alunos.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o professor ou técnico escolhe a opção mostrar alunos.</p>
+<ol>
+<li>O sistema redireciona o professor ou técnico para a tela de alunos.</li>
+<li>O sistema exibe todos o alunos cadastrados.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc10-pausar-experimento">UC10: Pausar experimento</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao professor pausar um experimento que está ocorrendo.</p>
+<p><strong>Ator principal:</strong> Professor</p>
+<p><strong>Pré condições:</strong> O professor deve estar autenticado em uma conta antes de pausar um experimento; o experimento a ser pausado deve ter sido iniciado.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o professor escolhe um experimento da tela de experimento e escolhe a opção pausar.</p>
+<ol>
+<li>O sistema informa se o professor deseja realmente pausar o experimento.</li>
+<li>O professor confirma.</li>
+<li>O sistema exibe uma mensagem de sucesso.</li>
+<li>O sistema bloqueia a interação do aluno com o experimento.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc11-retomar-experimento">UC11: Retomar experimento</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao professor retomar um experimento que foi pausado.</p>
+<p><strong>Ator principal:</strong> Professor</p>
+<p><strong>Pré condições:</strong> O professor deve estar autenticado em uma conta antes de retomar um experimento; o experimento a ser retomado deve ter sido pausado.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o professor escolhe um experimento, que está pausado, da tela de experimento e escolhe a opção retomar.</p>
+<ol>
+<li>O sistema informa se o professor deseja realmente retomar o experimento.</li>
+<li>O professor confirma.</li>
+<li>O sistema exibe uma mensagem de sucesso.</li>
+<li>O sistema desbloqueia a interação do aluno com o experimento.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc12-responder-duvida">UC12: Responder dúvida</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao professor responder uma dúvida cadastrada.</p>
+<p><strong>Ator principal:</strong> Professor</p>
+<p><strong>Pré condições:</strong> O professor deve estar autenticado em uma conta antes de responder uma dúvida; a dúvida a ser respondida deve ter sido previamente cadastrada.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o professor escolhe uma dúvida da tela de dúvidas.</p>
+<ol>
+<li>O sistema exibe a pergunta.</li>
+<li>O sistema exibe um campo de resposta.</li>
+<li>O professor escreve no campo de resposta.</li>
+<li>O professor confirma o envio.</li>
+<li>O sistema exibe uma mensagem de sucesso.</li>
+<li>O sistema notifica o autor da dúvida.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc13-cadastrar-duvida">UC13: Cadastrar dúvida</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao aluno cadastrar uma dúvida.</p>
+<p><strong>Ator principal:</strong> Aluno</p>
+<p><strong>Pré condições:</strong> O Aluno deve estar autenticado em uma conta antes de cadastrar uma dúvida.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o aluno escolhe a opção cadastrar dúvida.</p>
+<ol>
+<li>O sistema redireciona o aluno para a tela de dúvidas.</li>
+<li>O sistema exibe um campo para o título e outro para descrição.</li>
+<li>O aluno preenche as informações.</li>
+<li>O aluno confirma o cadastro.</li>
+<li>O sistema exibe uma mensagem de sucesso.</li>
+<li>O sistema notifica o professor.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc14-controlar-equipamento-experimental">UC14: Controlar equipamento experimental</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao aluno controlar o equipamento do experimento.</p>
+<p><strong>Ator principal:</strong> Aluno</p>
+<p><strong>Pré condições:</strong> O Aluno deve estar autenticado em uma conta antes de cadastrar uma dúvida; o aluno deve ter iniciado um experimento.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o aluno escolhe algumas opções de controle no experimento.</p>
+<ol>
+<li>O aluno escolhe uma ação para executar.</li>
+<li>O sistema informa ao aluno se realmente deseja efetuar a ação escolhida.</li>
+<li>O aluno confirma.</li>
+<li>O sistema exibe uma mensagem informando a ação que está sendo executada.</li>
+<li>O sistema  redireciona a ação para o equipamento.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc15-concluir-experimento">UC15: Concluir experimento</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao aluno concluir um experimento.</p>
+<p><strong>Ator principal:</strong> Aluno</p>
+<p><strong>Pré condições:</strong> O Aluno deve estar autenticado em uma conta antes de concluir um experimento; o aluno deve ter iniciado um experimento.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o aluno escolhe a opção concluir experimento.</p>
+<ol>
+<li>O sistema informa ao aluno se realmente deseja concluir o experimento.</li>
+<li>O aluno confirma.</li>
+<li>O sistema exibe uma mensagem informando a ação que o experimento foi concluído.</li>
+<li>O sistema redireciona o aluno para a tela inicial.</li>
+<li>O caso de uso é encerrado</li>
+</ol>
+<h1 id="uc16-solicitar-auxilio-do-tecnico">UC16: Solicitar auxílio do técnico</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao aluno solicitar o auxílio de um técnico.</p>
+<p><strong>Ator principal:</strong> Aluno</p>
+<p><strong>Pré condições:</strong> O Aluno deve estar autenticado em uma conta antes de solicitar auxílio; o aluno deve ter iniciado um experimento.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o aluno escolhe a opção falar com técnico.</p>
+<ol>
+<li>O sistema redireciona o aluno para a tela de bate papo com o técnico.</li>
+<li>O sistema notifica o técnico.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc17-regular-equipamento">UC17: Regular equipamento</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao técnico regular o equipamento do experimento.</p>
+<p><strong>Ator principal:</strong> Técnico</p>
+<p><strong>Pré condições:</strong> O Técnico deve estar autenticado em uma conta antes de regular um equipamento.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o Técnico escolhe a opção regular equipamento.</p>
+<ol>
+<li>O sistema redireciona o técnico para a tela de equipamentos.</li>
+<li>O técnico seleciona um dos equipamentos.</li>
+<li>O sistema redireciona o técnico para a tela do equipamento.</li>
+<li>O sistema exibe as possibilidades de regulagem.</li>
+<li>O técnico seleciona quais ele deseja efetuar.</li>
+<li>O sistema informa se o técnico realmente deseja realizar a regulagem.</li>
+<li>O técnico confirma.</li>
+<li>O sistema exibe uma mensagem de sucesso.</li>
+<li>O sistema começa a rotina de regulagem com os parâmetros informados pelo técnico.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc18-responder-solicitacao">UC18: Responder solicitação</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao técnico responder uma solicitação de auxílio feita por algum aluno.</p>
+<p><strong>Ator principal:</strong> Técnico</p>
+<p><strong>Pré condições:</strong> O Técnico deve estar autenticado em uma conta antes de responder uma solicitação; um aluno deve ter solicitado auxílio.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o Técnico escolhe a opção responder solicitações.</p>
+<ol>
+<li>O sistema redireciona o técnico para a tela de solicitações.</li>
+<li>O técnico seleciona uma das solicitações.</li>
+<li>O sistema redireciona o técnico para a tela de bate papo com o autor da solicitação.</li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h1 id="uc19-pausa-de-emergencia">UC19: Pausa de emergência</h1>
+<p><strong>Descrição:</strong> Este caso de uso permite ao técnico pausar um experimento em caso de emergência.</p>
+<p><strong>Ator principal:</strong> Técnico</p>
+<p><strong>Pré condições:</strong> O Técnico deve estar autenticado em uma conta antes de pausar um experimento; um experimento deve sido iniciado.</p>
+<p><strong>Fluxo principal:</strong> Este caso de uso é iniciado quando o Técnico escolhe a opção parada de emergência na tela do experimento.</p>
+<ol>
+<li>O sistema bloqueia as ações do aluno.</li>
+<li>O sistema notifica o aluno que o experimento teve uma parada de emergência.</li>
+<li>O caso de uso é encerrado.</li>
+</ol></div>
         
         
     </div>

@@ -272,12 +272,6 @@
                     </li>
                 
                 
-                
-                    <li >
-                        <a href="../../template/">v</a>
-                    </li>
-                
-                
                 </ul>
 
             <ul class="nav navbar-nav navbar-right">
@@ -309,11 +303,233 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#guia-de-estilo"> GUIA DE ESTILO</a></li>
+            <li class="second-level"><a href="#historico-de-versao">Histórico de versão</a></li>
+                
+            <li class="second-level"><a href="#participantes">Participantes</a></li>
+                
+            <li class="second-level"><a href="#introducao">Introdução</a></li>
+                
+            <li class="second-level"><a href="#1-resultados-de-analise">1 RESULTADOS DE ANÁLISE</a></li>
+                
+                <li class="third-level"><a href="#11-descricao-do-ambiente-de-trabalho-do-usuario">1.1 Descrição do ambiente de trabalho do usuário</a></li>
+            <li class="second-level"><a href="#2-elementos-de-interface">2 ELEMENTOS DE INTERFACE</a></li>
+                
+                <li class="third-level"><a href="#21-disposicao-espacial-e-grid">2.1 Disposição espacial e grid</a></li>
+                <li class="third-level"><a href="#22-janelas">2.2 Janelas</a></li>
+                <li class="third-level"><a href="#23-tipografia">2.3 Tipografia</a></li>
+                <li class="third-level"><a href="#24-simbolos-nao-tipograficos">2.4 Símbolos não tipográficos</a></li>
+                <li class="third-level"><a href="#25-cores">2.5 Cores</a></li>
+            <li class="second-level"><a href="#3-elementos-de-interacao">3 ELEMENTOS DE INTERAÇÃO</a></li>
+                
+                <li class="third-level"><a href="#31-estilos-de-interacao">3.1 Estilos de interação</a></li>
+                <li class="third-level"><a href="#32-selecao-de-um-estilo">3.2 Seleção de um estilo</a></li>
+                <li class="third-level"><a href="#33-aceleradores">3.3 Aceleradores</a></li>
+            <li class="second-level"><a href="#4-elementos-de-acao">4 ELEMENTOS DE AÇÃO</a></li>
+                
+                <li class="third-level"><a href="#41-preenchimento-de-campos">4.1 Preenchimento de campos</a></li>
+                <li class="third-level"><a href="#42-selecao">4.2 Seleção</a></li>
+                <li class="third-level"><a href="#43-ativacao">4.3 Ativação</a></li>
+            <li class="second-level"><a href="#5-vocabulario-e-padroes">5 VOCABULÁRIO E PADRÕES</a></li>
+                
+                <li class="third-level"><a href="#51-terminologia">5.1 Terminologia</a></li>
+                <li class="third-level"><a href="#52-tipos-de-tela">5.2 Tipos de tela</a></li>
+                <li class="third-level"><a href="#53-sequencias-de-dialogos">5.3 Sequências de diálogos</a></li>
+            <li class="second-level"><a href="#referencias">Referências</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="guia-de-estilo"><center> GUIA DE ESTILO</h1></div>
+<h1 id="guia-de-estilo"><center> GUIA DE ESTILO</h1>
+<h3 id="historico-de-versao">Histórico de versão<br></h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20.04.2021</td>
+<td>0.1</td>
+<td>Criação do documento</td>
+<td>Bruna Almeida</td>
+</tr>
+<tr>
+<td>24.04.2021</td>
+<td>0.2</td>
+<td>Adição das imagens</td>
+<td>Bruna Almeida</td>
+</tr>
+<tr>
+<td>24.04.2021</td>
+<td>0.3</td>
+<td>Adição dos textos</td>
+<td>Bruna Almeida</td>
+</tr>
+</tbody>
+</table>
+<h3 id="participantes">Participantes</h3>
+<ul>
+<li>Bruna Almeida</li>
+</ul>
+<p><br></p>
+<h3 id="introducao">Introdução</h3>
+<div align="justify"> O guia de estilo trata de um registro das principais decisões de design tomadas, de forma que elas não se percam, isto é, sejam efetivamente incorporadas no produto final. Guias de estilo servem de ferramenta de comunicação entre os membros da equipe de design e também com a equipe de desenvolvimento. É importante que as decisões de design possam ser facilmente consultadas e reutilizadas nas discussões sobre extensões ou versões futuras do produto.
+
+<br><br>
+
+O guia de estilo dedicado ao projeto Gama Boyle Lab foi desenvolvido a partir da <a href="https://damarcones.github.io/Gama_Boyle_Lab/visao-geral/">Identidade Visual</a> do projeto e o <a href="https://damarcones.github.io/Gama_Boyle_Lab/ihc/prototipo-alta/">protótipo de alta-fidelidade</a>.
+
+</div>
+<p><br></p>
+<h3 id="1-resultados-de-analise">1 RESULTADOS DE ANÁLISE</h3>
+<h4 id="11-descricao-do-ambiente-de-trabalho-do-usuario">1.1 Descrição do ambiente de trabalho do usuário</h4>
+<div align="justify">
+
+Ao acessar o site, o usuário se depara com a tela inicial que contém um quadro, onde é preciso identificar-se como aluno, professor ou técnico. Logo depois, o usuário é direcionado à tela de login e cadastro. Em seguida, é apresentado um menu de funcionalidades disponíveis para o usuário. Para o perfil de aluno, está disponível os expermimentos a serem realizados. Já para o professor e o técnico, além dos mesmos experimentos disponíveis, existem outras funcionalidades à disposição.
+
+<br><br>
+
+Existe uma característica que diferencia cada um dos perfis da aplicação: o perfil de aluno tem o fundo azul claro; o de professor possui o fundo azul escuro; e o perfil de técnico detem o fundo verde. Já as telas que são comuns aos três perfis possuem o fundo de cor branca.
+
+<br><br>
+
+Na maior parte das telas, é apresentado uma barra superior com: a logo do projeto; um botão que direciona para o perfil do usuário; uma barra de pesquisa; e um botão de logout, que encaminha o usuário para a tela de login.
+
+</div>
+<p><br></p>
+<h3 id="2-elementos-de-interface">2 ELEMENTOS DE INTERFACE</h3>
+<h4 id="21-disposicao-espacial-e-grid">2.1 Disposição espacial e grid</h4>
+<div align="justify">As telas iniciais - de identificação, login e cadastro - seguem um padrão bem igual, com a barra superior contendo apenas a logo e área de interação fica no centro da tela.</div>
+<p><br></p>
+<div align="center"><img src="../../imagens/guia/6.png" width="600" ></div>
+<figcaption align='center'>
+    <b>Figura 1 - Grid das telas iniciais</b>
+</figcaption>
+<p><br></p>
+<div align="justify">A tela principal possui vários itens de interação. Na barra superior há a logo, o botão que direciona para o perfil de usuário, uma barra de pesquisa e botão de Logout. Essa tarefa varia entre os perfis de aluno, professor e técnico.</div>
+<p><br></p>
+<div align="center"><img src="../../imagens/guia/7.png" width="600" ></div>
+<figcaption align='center'>
+    <b>Figura 2 - Tela do menu principal</b>
+</figcaption>
+<p><br></p>
+<h4 id="22-janelas">2.2 Janelas</h4>
+<div align="justify">As janelas presentes na aplicação incluem: informações sobre o experimento selecionado; regulação de equipamento; tela de transmissão de experimento; listagem de alunos; e tela de confirmação de decisão. A disposição de elementos dessas janelas estão apresentados a seguir.</div>
+<p><br></p>
+<div align="center"><img src="../../imagens/guia/8.png" width="600" ></div>
+<figcaption align='center'>
+    <b>Figura 3 - Janela de informações</b>
+</figcaption>
+<p><br></p>
+<div align="center"><img src="../../imagens/guia/9.png" width="600" ></div>
+<figcaption align='center'>
+    <b>Figura 4 - Tela de transmissão de experimento - aluno</b>
+</figcaption>
+<p><br></p>
+<div align="center"><img src="../../imagens/guia/10.png" width="600" ></div>
+<figcaption align='center'>
+    <b>Figura 5 - Tela de transmissão de experimento - professor/técnico</b>
+</figcaption>
+<p><br></p>
+<div align="center"><img src="../../imagens/guia/11.png" width="400" ></div>
+<figcaption align='center'>
+    <b>Figura 6 - Janela de confirmação de decisão</b>
+</figcaption>
+<p><br></p>
+<h4 id="23-tipografia">2.3 Tipografia</h4>
+<div align="justify">Em relação à tipografia, a aplicação utilizará as seguintes fontes:</div>
+<p><br></p>
+<div align="center"><img src="../../imagens/guia/tipografia.png" width="600" ></div>
+<p><br></p>
+<figcaption align='center'>
+    <b>Figura 7 - Tipografia</b>
+</figcaption>
+<p><br></p>
+<h4 id="24-simbolos-nao-tipograficos">2.4 Símbolos não tipográficos</h4>
+<div align="justify">Os seguintes símbolos serão utilizados na aplicação:</div>
+<p><br></p>
+<div align="center"><img src="../../imagens/guia/simbolos.png" width="600" ></div>
+<p><br></p>
+<figcaption align='center'>
+    <b>Figura 8 - Símbolos não-tipográficos</b>
+</figcaption>
+<p><br></p>
+<div align="justify">Estes símbolos executam, respectivamente, as seguintes funções:</div>
+<ul>
+<li>Mostrar o perfil do usuário;</li>
+<li>Fazer Logout;</li>
+<li>Confirmar uma decisão;</li>
+<li>Representação do Chat;</li>
+<li>Dar continuidade a um experimento;</li>
+<li>Pausar um experimento;</li>
+<li>Enviar uma mensagem no chat.</li>
+</ul>
+<p><br><br></p>
+<h4 id="25-cores">2.5 Cores</h4>
+<div align="justify">A logo do projeto deverá ser usada em quase todas as telas da aplicação.</div>
+<p><br></p>
+<div align="center"><img src="../../imagens/guia/3.png" width="600" ></div>
+<p><br></p>
+<figcaption align='center'>
+    <b>Figura 9 - Paleta de cores da Logo</b>
+</figcaption>
+<p><br></p>
+<div align="justify">No percorrer da aplicação as seguintes cores devem ser utilizadas:</div>
+<p><br></p>
+<div align="center"><img src="../../imagens/guia/4.png" width="600" ></div>
+<p><br></p>
+<figcaption align='center'>
+    <b>Figura 10 - Paleta de cores do site</b>
+</figcaption>
+<p><br></p>
+<h3 id="3-elementos-de-interacao">3 ELEMENTOS DE INTERAÇÃO</h3>
+<h4 id="31-estilos-de-interacao">3.1 Estilos de interação</h4>
+<div align="justify">Os estilos de interação que serão utilizados são: menus, que possibilitam a navegação do usuário pelo site com uma linguagem natural que indica o que o usuário pode fazer; e WIMP (window, icon, menu, pointing device) que é a utilização de ícones, menus e ações com o mouse.
+
+</div>
+<p><br></p>
+<h4 id="32-selecao-de-um-estilo">3.2 Seleção de um estilo</h4>
+<div align="justify">Como citado anteriormente, o estilo de utilização de menus será o predominante na aplicação. Dessa forma o usuário seleciona no menu a funcionalidade que deseja e é guiad até a finalização da tarefa.
+
+</div>
+<p><br></p>
+<h4 id="33-aceleradores">3.3 Aceleradores</h4>
+<div align="justify">Não há nenhum de acelerador ou tecla de atalho na aplicação.</div>
+<p><br></p>
+<h3 id="4-elementos-de-acao">4 ELEMENTOS DE AÇÃO</h3>
+<h4 id="41-preenchimento-de-campos">4.1 Preenchimento de campos</h4>
+<div align="justify">As telas de login e cadastro exigem preenchimento de campos. No caso de cadastro, serão solicitados: nome, matrícula, turma, senha e confirmação de senha. Já na tela de login, serão exigidos matrícula ou usuário e a senha cadastrada.
+
+</div>
+<p><br></p>
+<h4 id="42-selecao">4.2 Seleção</h4>
+<div align="justify">Não existe opção de seleção nos preenchimentos de campos, apenas caixas de texto.
+
+</div>
+<p><br></p>
+<h4 id="43-ativacao">4.3 Ativação</h4>
+<div align="justify">Após todos os campos preenchidos corretamente, basta o usuário clicar no botão "entrar" (no caso de login) ou "cadastrar" (em caso de cadastro).
+
+</div>
+<p><br></p>
+<h3 id="5-vocabulario-e-padroes">5 VOCABULÁRIO E PADRÕES</h3>
+<h4 id="51-terminologia">5.1 Terminologia</h4>
+<div align="justify">A linguagem utilizada na aplicação deve ser bem simples e de fácil entendimento, contendo termos ligados à Química Experimental.</div>
+<p><br></p>
+<h4 id="52-tipos-de-tela">5.2 Tipos de tela</h4>
+<div align="justify">A aplicação deve possuir um padrão em quase todas as telas, com uma barra superior contendo a Logo e alguns botões. A excessão será as telas de transmissão de experimento, que não devem possuir barra superior, apenas a tela de transmissão, chat e alguns botões.</div>
+<p><br></p>
+<h4 id="53-sequencias-de-dialogos">5.3 Sequências de diálogos</h4>
+<div align="justify">Nos casos que necessitam algum tipo de confirmação, o sistema informará o usuário com algum aviso na tela do site, solicitando a confirmação da decisão.</div>
+<p><br></p>
+<h2 id="referencias">Referências</h2>
+<p>Livro: BARBOSA, S. D. J.; SILVA, B. S., <strong>Interação Humano-Computador</strong> . 1ª edição, Rio de Janeiro: Elsevier, 2010. Acesso em 19 de abril de 2021.</p>
+<p>IHC, <strong>Guia de Estilo</strong>. Disponível em <a href="https://interacao-humano-computador.github.io/2020.1-Prefeiturade-Aguas-Lindas-de-Goias/analise_requisitos/guia_estilo/">https://interacao-humano-computador.github.io/2020.1-Prefeiturade-Aguas-Lindas-de-Goias/analise_requisitos/guia_estilo/</a>. Acesso em 20 de abril de 2021.</p></div>
         
         
     </div>
