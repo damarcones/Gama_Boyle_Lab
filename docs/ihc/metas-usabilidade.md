@@ -37,7 +37,7 @@ Vamos abordar como cada meta deve se adequar, de acordo com perguntas chaves e r
 <br>
 <br>
 
- ### Eficácia
+### Eficácia
 
  O sistema deve fazer o que é esperado dele.
 <br>
@@ -105,9 +105,9 @@ O usuário não deve ser obrigado a reaprender a usar o serviço toda vez que o 
 
 ## Referência 
 
-• NIELSEN, Jacob . Designing Web Usability: The Practice of Simplicity. Peachpit Press, 1a. edição, 1999.
+• NIELSEN, Jacob . **Designing Web Usability: The Practice of Simplicity.** Peachpit Press, 1a. edição, 1999.
 <br>
-• REBELO, Irla. IHC na prática - Usabilidade e suas metas. Disponível em https://irlabr.wordpress.com/apostila-de-ihc/parte-1-ihc-na-pratica/6-usabilidade-e-suas-metas. Acesso em 10/10/2020.
+• REBELO, Irla. IHC na prática - **Usabilidade e suas metas.** Disponível em https://irlabr.wordpress.com/apostila-de-ihc/parte-1-ihc-na-pratica/6-usabilidade-e-suas-metas. Acesso em 10/10/2020.
 
 
 

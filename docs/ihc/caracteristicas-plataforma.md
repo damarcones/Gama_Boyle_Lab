@@ -1,11 +1,11 @@
 # <center> CARACTERÍSTICAS DA PLATAFORMA
 
-
 ### Histórico de versão<br>
 
 |Data | Versão | Descrição | Autor(es)|
 | -- | -- | -- | -- |
 | 19.04.2021 | 0.1 | Criação do documento |Carlos Eduardo|
+| 25.04.2021 | 0.1.1| Modificação da Introdução| Carlos Eduardo|
 
 ### Introdução
 <div align="justify"> A aplicação desenvolvido é uma plataforma web do tipo Portal, onde os usuários podem acompanhar experimentos ao vivo realizados no laboratório de química experimental da UnB (Universidade de Brasília), assim como interagir e controlar a bancada de experimentos. Além disso, é possível interagir através de um chat com outros usuários. Este documento tem como objetivo mostrar as principais características do projeto Gama Boyle Lab.
