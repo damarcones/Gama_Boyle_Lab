@@ -132,6 +132,11 @@
 
 
 ## Referências
-DEVMEDIA, **Padrão de Projeto Singleton em Java** Disponível em [https://www.devmedia.com.br/padrao-de-projeto-singleton-em-java/26392](https://www.devmedia.com.br/padrao-de-projeto-singleton-em-java/26392) Acesso em 1 de abril de 2021.
 
 Livro: PMI. **Um guia do conhecimento em gerenciamento de projetos (Guia PMBOK)**. Quinta Edição. Newtown Square, Pennsylvania 19073-3299 USA: Project Management Institute, Inc., 2013.
+
+LEILA'S, **Plano de Gerenciamento de Riscos**. Disponível em: [unbarqdsw2020-2.github.io/2020.2_G1_CabeleleiraLeila_Docs/base/plano-de-risco/](https://unbarqdsw2020-2.github.io/2020.2_G1_CabeleleiraLeila_Docs/base/plano-de-risco/). Acesso em 24 de abril de 2021.
+
+A MONITORIA, **Plano de gerenciamento de riscos**. Disponível em: [2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/](2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/). Acesso em 24 de abril de 2021.
+
+TRIAGIL, **Plano de riscos**. Disponível em: [unbarqdsw.github.io/2020.1_G1_Triagil/base/documentos/plano_risco/](unbarqdsw.github.io/2020.1_G1_Triagil/base/documentos/plano_risco/) Acesso em 1 de abril de 2021.
