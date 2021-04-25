@@ -16,6 +16,8 @@
 ### Introdução
 <div align="justify"> O produto Gama Boyle Lab tem como principal requisito possibilitar que um estudante da
 Universidade de Brasília - Campus Gama consiga realizar 5 experimentos da matéria de Química Experimental de maneira totalmente remota. 
+<br>
+Os requisitos foram levantados atrvavés de um brainstorming entre os integrantes do núcleo de software. 
 </div><br>
 
 ### Requisitos funcionais
@@ -50,5 +52,3 @@ com solução assistência/ajuda para debilidades. <br>
 • O sistema deve possuir uma linguagem próxima dos usuários cadastrados. <br>
 • O sistema deve armazenar com segurança relação ao acesso dos dados dos usuários cadastrados no
 sistema. <br>
-
-## Referências
