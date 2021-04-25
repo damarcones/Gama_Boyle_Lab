@@ -42,70 +42,66 @@ Vamos abordar como cada meta deve se adequar, de acordo com perguntas chaves e r
  O sistema deve fazer o que é esperado dele.
 <br>
 
- - O sistema serve ao propósito principal?
- <br>
+- O sistema serve ao propósito principal?
 
- O site deve permitir que os usuários realizem experimentos de química experimental, em um laboratório virtual.
+- O site deve permitir que os usuários realizem experimentos de química experimental, em um laboratório virtual.
 
- <br>
- <br>
-
- ### Eficiência
-
- Está diretamente ligada à velocidade que um objetivo é alcançado.
- <br>
-
--  O sistema permite que os usuários realizem suas tarefas com alto nível de produtividade?
 <br>
 
-O site deve oferecer formas fáceis e rápidas para que o usuário consiga realizar o experimento e encontrar as informações que desejar.
+### Eficiência
+
+Está diretamente ligada à velocidade que um objetivo é alcançado.
 <br>
+
+- O sistema permite que os usuários realizem suas tarefas com alto nível de produtividade?
+
+- O site deve oferecer formas fáceis e rápidas para que o usuário consiga realizar o experimento e encontrar as informações que desejar.
+
 <br>
 
 ### Segurança
 
 Serve para prevenir erros e reduzir riscos referente a ações drásticas como desligar o sistema ou deletar alguma informação.
-
 <br>
 
 - O sistema previne o usuário de erros e se acontecer, sistema recupera as ações anteriores?
 
-O sistema deve oferecer mensagens de erros claras quando houver algum erro.
+- O sistema deve oferecer mensagens de erros claras quando houver algum erro.
 
-<br>
 <br>
 
 ### Utilidade 
 
 É necessário fornecer ao usuário um conjunto de funções, estas que são esperadas pelo usuário naquele devido contexto.
- <br>
+<br>
 
 - O sistema oferece ao usuário a funcionalidade certa segundo o contexto?
 
-O sistema deve apresentar todos os métodos necessários para os experimentos serem realizados.
+- O sistema deve apresentar todos os métodos necessários para os experimentos serem realizados.
 
-<br>
 <br>
 
 ### Aprendizagem 
 
 É a facilidade de se aprender a usar o sistema.
-
 <br>
 
 - É fácil para o usuário aprender a usar o sistema?
 
-O sistema deve apresentar de forma clara e com estrutura organziada as opções disponíveis.
+- O sistema deve apresentar de forma clara e com estrutura organziada as opções disponíveis.
+
+<br>
 
 ### Memorização 
 
 O usuário não deve ser obrigado a reaprender a usar o serviço toda vez que o acessa.
-
 <br>
 
 - O sistema apresenta suporte para ajudar o usuário a lembrar como realizar tarefas?
 
-O sistema deve apresentar instruções claras de como cada ferramenta deve ser utilizada. 
+- O sistema deve apresentar instruções claras de como cada ferramenta deve ser utilizada. 
+
+<br>
 
 ### Referência 
 
