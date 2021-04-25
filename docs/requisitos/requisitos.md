@@ -41,14 +41,11 @@ simultaneamente. <br>
 • O professor e o técnico podem visualizar a lista de usuários. <br>
 
 ### Requisitos não funcionais
-• O sistema deverá ser compatível com normas de acessibilidade e compatibilidade
-com solução assistência/ajuda para debilidades. <br>
+• O sistema deverá ser compatível com a norma de qualidade de software Internacional Organization for Standardization 2500 (ISO/IEC 2500). <br>
 • O sistema deverá estar de acordo a Lei Geral de Proteção de Dados (LGPD) e melhores práticas de segurança. <br>
-• Os técnicos, professores e alunos poderão navegar entre os menus. <br>
-• O serviço web deve mostrar o mesmo desempenho nos navegadores mais populares
-(Google Chrome, Mozilla Firefox). <br>
-• O sistema deve ser suportado por hardware desenvolvidos à partir de 2016. <br>
+• O sistema deve ser suportado por desktops e notebooks. <br>
 • O sistema deve possuir licença comercial. <br>
-• O sistema deve possuir uma linguagem próxima dos usuários cadastrados. <br>
-• O sistema deve armazenar com segurança relação ao acesso dos dados dos usuários cadastrados no
-sistema. <br>
+• O sistema deve armazenar com segurança os dados que serão fornecidos pelos usuários ao realizarem o cadastro no sistema. <br>
+• O sistema deve garantir segurança em relação à invasões ao software. <br>
+• O sistema deve garantir segurança em relação à falhas. <br>
+• O sistema deve possuir uma linguagem simples e de fácil navegação entre menus. <br>
