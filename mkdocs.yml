@@ -23,14 +23,12 @@ nav:
     - Estimativas: requisitos/estimativas.md
   - Requisitos: requisitos/requisitos.md
   - Modelagem:
-    - Léxico: requisitos/lexico.md
     - NFR: requisitos/nfr.md
     - Casos de Uso: requisitos/casos-uso.md
     - Diagramas de Casos de Uso: diagramas/diagrama-casos-uso.md
     - Diagrama de Classes: diagramas/diagrama-classes.md
-    - Diagrama de Componentes: diagramas/diagrama-componentes.md
+    - Diagrama de Entidade Relacionamento: diagramas/diagrama-componentes.md
     - Diagrama de Pacotes: diagramas/diagrama-pacotes.md
-    - Diagrama de Comunicação: diagramas/diagrama-comunicacao.md
     - Diagrama de Atividades: diagramas/diagrama-atividades.md
     - Diagrama de Estado: diagramas/diagrama-estado.md
   - Padrões:
