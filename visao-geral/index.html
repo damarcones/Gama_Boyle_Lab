@@ -189,12 +189,6 @@
                         
                             
 <li >
-    <a href="../requisitos/lexico/">Léxico</a>
-</li>
-
-                        
-                            
-<li >
     <a href="../requisitos/nfr/">NFR</a>
 </li>
 
@@ -219,19 +213,13 @@
                         
                             
 <li >
-    <a href="../diagramas/diagrama-componentes/">Diagrama de Componentes</a>
+    <a href="../diagramas/diagrama-componentes.md">Diagrama de Entidade Relacionamento</a>
 </li>
 
                         
                             
 <li >
     <a href="../diagramas/diagrama-pacotes/">Diagrama de Pacotes</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../diagramas/diagrama-comunicacao/">Diagrama de Comunicação</a>
 </li>
 
                         
@@ -305,9 +293,11 @@
         <li class="first-level active"><a href="#visao-geral"> VISÃO GERAL</a></li>
             <li class="second-level"><a href="#historico-de-versao">Histórico de versão</a></li>
                 
-            <li class="second-level"><a href="#participantes">Participantes</a></li>
+            <li class="second-level"><a href="#visao-geral_1">Visão Geral</a></li>
                 
             <li class="second-level"><a href="#identidade-visual">Identidade Visual</a></li>
+                
+            <li class="second-level"><a href="#divisao-de-tarefas">Divisão de tarefas</a></li>
                 
     </ul>
 </div></div>
@@ -331,20 +321,210 @@
 <td>Criação do documento</td>
 <td>Bruna Almeida<br>Damarcones Porto</td>
 </tr>
+<tr>
+<td><br><br></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
-<h3 id="participantes">Participantes</h3>
-<ul>
-<li>Bruna Almeida</li>
-<li>Damarcones Porto</li>
-</ul>
-<p><br></p>
-<h3 id="identidade-visual">Identidade Visual</h3>
+<h3 id="visao-geral_1"><strong>Visão Geral</strong></h3>
+<div align="justify">O Software desenvolvido para o projeto Gama Boyle Lab servirá como ponte entre o equipamento físico e os usuários que estarão envolvidos nos experimentos. Trata-se de uma aplicação Web, que possibilitará a realização de experimentos de forma totalmente remota, via transmissão ao vivo realizada por uma webcam acoplada na estrutura do dispositivo.
+<br><br>
+A interface possibilitará que o aluno configure as características do experimento, como quantidade de reagentes, tempo de agitação da solução, entre outros. Além disso, será disponibilizado um chat para comunicação entre usuários dos tipos aluno, técnico e professor, afim de tirar dúvidas ou solicitar atendimento.
+<br><br>
+O software será uma aplicação web, que permitirá aos usuários controlar o Gama Boyle Lab de forma remota para executar os experimentos que estão listados. Será possível acompanhar toda a execução do experimento por vídeo conferência, através de uma webcam acoplada na estrutura, dando visão clara a tudo que está ocorrendo na plataforma.
+<br><br>
+A aplicação será desenvolvida em Javascript, utilizando React para o Front-end e Node para o Back-end, uma linguagem amplamente utilizada, que possui uma biblioteca voltada ao controle de robôs, denominada <i>Johnny Five</i>, para integração direta com os Arduínos utilizados no equipamento. 
+<br><br></div>
+
+<h3 id="identidade-visual"><strong>Identidade Visual</strong></h3>
+<div align="justify">Uma identidade visual foi desenvolvida para guiar o design da aplicação.<br><br></div>
+
 <object data="../../imagens/identidade-Gama-Boyle-Lab.pdf" type="application/pdf" width="820px" height="485px">
 <embed src="../../imagens/identidade-Gama-Boyle-Lab.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../../imagens/identidade-Gama-Boyle-Lab.pdf">Download PDF</a>.</p>
     </embed>
-</object></div>
+</object>
+<p><br><br></p>
+<h3 id="divisao-de-tarefas"><strong>Divisão de tarefas</strong></h3>
+<div align="justify">A tabela a seguir apresenta as tarefas do núcleo de Software, os responsáveis e as datas de início e fim.<br><br></div>
+
+<table>
+<thead>
+<tr>
+<th align="left">Atividade</th>
+<th align="left">Início</th>
+<th align="left">Fim</th>
+<th align="left">Responsáveis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Nome comercial e conceito para o produto</td>
+<td align="left">17/03/2021</td>
+<td align="left">25/03/2021</td>
+<td align="left">Bruna</td>
+</tr>
+<tr>
+<td align="left">Requisitos</td>
+<td align="left">17/03/2021</td>
+<td align="left">25/03/2021</td>
+<td align="left">Rodrigo e Carlos</td>
+</tr>
+<tr>
+<td align="left">Justificativa</td>
+<td align="left">17/03/2021</td>
+<td align="left">25/03/2021</td>
+<td align="left">João Pedro</td>
+</tr>
+<tr>
+<td align="left">Indicadores</td>
+<td align="left">17/03/2021</td>
+<td align="left">25/03/2021</td>
+<td align="left">Damarcones</td>
+</tr>
+<tr>
+<td align="left">Visão geral</td>
+<td align="left">14/04/2021</td>
+<td align="left">26/04/2021</td>
+<td align="left">Bruna e Damarcones</td>
+</tr>
+<tr>
+<td align="left">Perfil do usuário</td>
+<td align="left">14/04/2021</td>
+<td align="left">25/04/2021</td>
+<td align="left">Isadora</td>
+</tr>
+<tr>
+<td align="left">Personas</td>
+<td align="left">14/04/2021</td>
+<td align="left">21/04/2021</td>
+<td align="left">João Pedro</td>
+</tr>
+<tr>
+<td align="left">Características da plataforma</td>
+<td align="left">14/04/2021</td>
+<td align="left">19/04/2021</td>
+<td align="left">Carlos</td>
+</tr>
+<tr>
+<td align="left">Princípios e diretrizes do projeto</td>
+<td align="left">14/04/2021</td>
+<td align="left">25/04/2021</td>
+<td align="left">Matheus</td>
+</tr>
+<tr>
+<td align="left">Metas de usabilidade</td>
+<td align="left">14/04/2021</td>
+<td align="left">24/04/2021</td>
+<td align="left">Isadora</td>
+</tr>
+<tr>
+<td align="left">Guia de estilo</td>
+<td align="left">14/04/2021</td>
+<td align="left">24/04/2021</td>
+<td align="left">Bruna</td>
+</tr>
+<tr>
+<td align="left">Protótipo de baixa-fidelidade</td>
+<td align="left">14/04/2021</td>
+<td align="left">24/04/2021</td>
+<td align="left">João Pedro</td>
+</tr>
+<tr>
+<td align="left">Protótipo de alta-fidelidade</td>
+<td align="left">14/04/2021</td>
+<td align="left">24/04/2021</td>
+<td align="left">Bruna, Damarcones, João Pedro</td>
+</tr>
+<tr>
+<td align="left">Rich Pictures</td>
+<td align="left">14/04/2021</td>
+<td align="left">25/04/2021</td>
+<td align="left">Damarcones</td>
+</tr>
+<tr>
+<td align="left">Plano de gerenciamento de riscos</td>
+<td align="left">14/04/2021</td>
+<td align="left">24/04/2021</td>
+<td align="left">Bruna</td>
+</tr>
+<tr>
+<td align="left">Estimativas</td>
+<td align="left">14/04/2021</td>
+<td align="left">25/04/2021</td>
+<td align="left">João Pedro</td>
+</tr>
+<tr>
+<td align="left">Casos de uso</td>
+<td align="left">14/04/2021</td>
+<td align="left">24/04/2021</td>
+<td align="left">Rodrigo</td>
+</tr>
+<tr>
+<td align="left">Diagrama de casos de uso</td>
+<td align="left">14/04/2021</td>
+<td align="left">--/04/2021</td>
+<td align="left">Rodrigo</td>
+</tr>
+<tr>
+<td align="left">NFR</td>
+<td align="left">14/04/2021</td>
+<td align="left">--/04/2021</td>
+<td align="left">Rodrigo</td>
+</tr>
+<tr>
+<td align="left">Diagrama de Classes</td>
+<td align="left">14/04/2021</td>
+<td align="left">--/04/2021</td>
+<td align="left">Bruna, Damarcones, João Pedro</td>
+</tr>
+<tr>
+<td align="left">Diagrama de Entidade Relacionamento</td>
+<td align="left">26/04/2021</td>
+<td align="left">--/04/2021</td>
+<td align="left">--</td>
+</tr>
+<tr>
+<td align="left">Diagrama de Pacotes</td>
+<td align="left">14/04/2021</td>
+<td align="left">--/04/2021</td>
+<td align="left">Matheus</td>
+</tr>
+<tr>
+<td align="left">Diagrama de Atividades</td>
+<td align="left">14/04/2021</td>
+<td align="left">26/04/2021</td>
+<td align="left">Bruna e Damarcones</td>
+</tr>
+<tr>
+<td align="left">Diagrama de Estado</td>
+<td align="left">14/04/2021</td>
+<td align="left">--/04/2021</td>
+<td align="left">Carlos</td>
+</tr>
+<tr>
+<td align="left">Padrões GoF e GRASP</td>
+<td align="left">14/04/2021</td>
+<td align="left">--/04/2021</td>
+<td align="left">Bruna e Damarcones</td>
+</tr>
+<tr>
+<td align="left">Ponto de vista de Software</td>
+<td align="left">25/04/2021</td>
+<td align="left">25/04/2021</td>
+<td align="left">Bruna, Damarcones, João Pedro</td>
+</tr>
+<tr>
+<td align="left">Descrição de Software</td>
+<td align="left">25/04/2021</td>
+<td align="left">--/04/2021</td>
+<td align="left">Bruna, Damarcones, João Pedro</td>
+</tr>
+</tbody>
+</table></div>
         
         
     </div>
