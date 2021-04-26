@@ -47,4 +47,4 @@
 
 #### Projeto para erros
 
-<div align ="justify"> Bem nosso projeto deixará o aluno livre para realizar o experimento sozinho, e para evitar possíveis acidentes os técnicos e professores terão a permissão para interromper experimentos ou bloquear ações. </div>
+<div align ="justify"> Bem nosso projeto deixará o aluno livre para realizar o experimento sozinho, e para evitar possíveis acidentes os técnicos e professores terão a permissão para pausar ou interromper os experimentos a qualquer momento. </div>
