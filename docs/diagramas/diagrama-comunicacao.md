@@ -1,1 +1,0 @@
-# <center> DIAGRAMA DE COMUNICAÇÃO
