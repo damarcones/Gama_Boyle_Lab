@@ -5,6 +5,7 @@
 |Data | Versão | Descrição | Autor(es)|
 | -- | -- | -- | -- |
 | 26.04.2021 | 0.1 | Criação do documento | Bruna Almeida<br>Damarcones Porto|
+| 26.04.2021 | 0.2 | Adição dos diagramas | Bruna Almeida<br>Damarcones Porto|
 
 ### Participantes
 
@@ -32,31 +33,51 @@ Os símbolos utilizados nos diagrama de atividades do projeto Gama Boyle Lab est
 <br>
 
 
+
 ### Diagramas
 
 #### **Login**
 
-<div align="justify">
+<div align="center"><img src="../../imagens/atividade-login.png" width="400" ></div><br>
+<figcaption align='center'>
+    <b>Figura 2 - Diagrama de atividades de login</b>
+</figcaption>
+<br>
 
-</div><br>
+<div align="justify">O diagrama apresenta as ações necessárias para que seja possível realizar o login e suas possíveis ações, dependendo do que ocorra na requisição.</div><br>
+
 
 #### **Cadastro**
 
-<div align="justify">
+<div align="center"><img src="../../imagens/atividade-cadastro.png" width="400" ></div><br>
+<figcaption align='center'>
+    <b>Figura 3 - Diagrama de atividades de cadastro</b>
+</figcaption>
+<br>
 
-</div><br>
+<div align="justify">O diagrama apresenta como se dará o processo de cadastro dos usuários do tipo aluno.</div><br>
+
 
 #### **Regulagem de equipamento**
 
-<div align="justify">
+<div align="center"><img src="../../imagens/atividades-regular-equipamento.png" width="400" ></div><br>
+<figcaption align='center'>
+    <b>Figura 4 - Diagrama de atividades de regulagem de equipamento</b>
+</figcaption>
+<br>
 
-</div><br>
+<div align="justify"></div>O diagrama apresenta como se dará o processo de regulagem do equipamento, por parte do aluno antes de realizar o experimeto ou o técnico a qualquer momento.<br>
+
 
 #### **Realização de experimento**
 
-<div align="justify">
+<div align="center"><img src="../../imagens/atividades-experimento.png" width="400" ></div><br>
+<figcaption align='center'>
+    <b>Figura 5 - Diagrama de atividades de realização de experimento</b>
+</figcaption>
+<br>
 
-</div><br>
+<div align="justify">O diagrama mostra as ações que levam à realização de um experimento, que pode ser feito pelos três tipos de usuário: aluno, professor e técnico.</div><br>
 
 
 
