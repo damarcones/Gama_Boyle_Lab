@@ -11,7 +11,7 @@
 * João Pedro Chaves
 * Damarcones Porto
 * Bruna Almeida
-<br>
+<br><br>
 
 ### Metodologia
 
@@ -23,28 +23,29 @@ A criação do protótipo de baixa fidelidade foi realizada em papel devido a fa
 
 ### Protótipo de Baixa Fidelidade
 
-<figure>
-  <img src="../../imagens/prototipo/prototipo-baixa-1.png" alt="prototype" style="width:900px;height:600px;"/>
-</figure>
-
+<div align="center"><img src="../../imagens/prototipo/prototipo-baixa-1.png" width="815" ></div>
+<figcaption align='center'>
+    <b>Figura 1 - 1ª folha do protótipo de papel</b>
+</figcaption>
 <br>
 
-<figure>
-  <img src="../../imagens/prototipo/prototipo-baixa-2.png" alt="prototype" style="width:900px;height:600px;"/>
-</figure>
-
+<div align="center"><img src="../../imagens/prototipo/prototipo-baixa-2.png" width="815" ></div>
+<figcaption align='center'>
+    <b>Figura 2 - 2ª folha do protótipo de papel</b>
+</figcaption>
 <br>
 
-<figure>
-  <img src="../../imagens/prototipo/prototipo-baixa-3.png" alt="prototype" style="width:900px;height:600px;"/>
-</figure>
-
+<div align="center"><img src="../../imagens/prototipo/prototipo-baixa-3.png" width="815" ></div>
+<figcaption align='center'>
+    <b>Figura 3 - 3ª folha do protótipo de papel</b>
+</figcaption>
 <br>
 
-<figure>
-  <img src="../../imagens/prototipo/prototipo-baixa-4.png" alt="prototype" style="width:900px;height:600px;"/>
-</figure>
-
+<div align="center"><img src="../../imagens/prototipo/prototipo-baixa-4.png" width="815" ></div>
+<figcaption align='center'>
+    <b>Figura 4 - 4ª folha do protótipo de papel</b>
+</figcaption>
+<br>
 
 
 ## Referências

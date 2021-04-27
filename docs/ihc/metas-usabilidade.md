@@ -13,17 +13,15 @@
 <br>
 
 ### O que é usabilidade?
-Segundo Jakob Nielsen(1993), usabilidade é atributo de qualidade para avaliar a facilidade de uso de uma interface. Também se refere a métodos para melhorar a facilidade de uso durante o processo de design.
+<div align ="justify">Segundo Jakob Nielsen(1993), usabilidade é atributo de qualidade para avaliar a facilidade de uso de uma interface. Também se refere a métodos para melhorar a facilidade de uso durante o processo de design.</div><br>
 
-<br>
 
 ### Metas de usablidade
+<div align ="justify">
 As metas de usabilidade são utilizadas durante o projeto com a intenção de ajudar a solucionar preocupações, como por exemplo: produtividade do usuário durante a utilização do sistema e motivação desse usuário para um aprendizado eficaz.
-
-<br>
-
+<br><br>
 Um dos estudos feitos por Jakob Nielsen(1993) fala sobre as 6 metas de usabilidade, uma lista de fatores que estão ligadas diretamente ao uso de sistemas.
- <br>
+</div><br>
 
  As metas de usabilidades são: <br>
  1- Eficácia <br>
@@ -37,7 +35,7 @@ Vamos abordar como cada meta deve se adequar, de acordo com perguntas chaves e r
 <br>
 <br>
 
-### Eficácia
+### **Eficácia**
 
  O sistema deve fazer o que é esperado dele.
 <br>
@@ -48,7 +46,7 @@ Vamos abordar como cada meta deve se adequar, de acordo com perguntas chaves e r
 
 <br>
 
-### Eficiência
+### **Eficiência**
 
 Está diretamente ligada à velocidade que um objetivo é alcançado.
 <br>
@@ -59,7 +57,7 @@ Está diretamente ligada à velocidade que um objetivo é alcançado.
 
 <br>
 
-### Segurança
+### **Segurança**
 
 Serve para prevenir erros e reduzir riscos referente a ações drásticas como desligar o sistema ou deletar alguma informação.
 <br>
@@ -70,7 +68,7 @@ Serve para prevenir erros e reduzir riscos referente a ações drásticas como d
 
 <br>
 
-### Utilidade 
+### **Utilidade**
 
 É necessário fornecer ao usuário um conjunto de funções, estas que são esperadas pelo usuário naquele devido contexto.
 <br>
@@ -81,7 +79,7 @@ Serve para prevenir erros e reduzir riscos referente a ações drásticas como d
 
 <br>
 
-### Aprendizagem 
+### **Aprendizagem** 
 
 É a facilidade de se aprender a usar o sistema.
 <br>
@@ -92,7 +90,7 @@ Serve para prevenir erros e reduzir riscos referente a ações drásticas como d
 
 <br>
 
-### Memorização 
+### **Memorização** 
 
 O usuário não deve ser obrigado a reaprender a usar o serviço toda vez que o acessa.
 <br>
@@ -103,7 +101,7 @@ O usuário não deve ser obrigado a reaprender a usar o serviço toda vez que o 
 
 <br>
 
-## Referência 
+## Referências 
 
 • NIELSEN, Jacob . **Designing Web Usability: The Practice of Simplicity.** Peachpit Press, 1a. edição, 1999.
 <br>

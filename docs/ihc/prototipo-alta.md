@@ -12,7 +12,7 @@
 * João Pedro Chaves
 * Damarcones Porto
 * Bruna Almeida
-<br>
+<br><br>
 
 ### Metodologia
 
