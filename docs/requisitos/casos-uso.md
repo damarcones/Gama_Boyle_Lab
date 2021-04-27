@@ -1,6 +1,18 @@
-# Especificação de casos de uso
+# <center>ESPECIFICAÇÃO DE CASOS DE USO
 
-# UC01: Cadastrar Aluno
+### Histórico de versão<br>
+
+|Data | Versão | Descrição | Autor(es)|
+| -- | -- | -- | -- |
+| 24.04.2021 | 0.1 | Criação do documento |Rodrigo Oliveira|
+
+### Participantes
+
+* Rodrigo Oliveira
+
+<br><br>
+
+## UC01: Cadastrar Aluno
 
 **Descrição:** Este caso de uso permite ao aluno se cadastrar na plataforma.
 
@@ -18,7 +30,9 @@
 6. O usuário é redirecionado para a tela de *log in*.
 7. O caso de uso é encerrado.
 
-# UC02: Autenticar usuários
+<br>
+
+## UC02: Autenticar usuários
 
 **Descrição:** Este caso de uso permite aos usuários se autenticarem na plataforma.
 
@@ -35,7 +49,9 @@
 5. O usuário é redirecionado para a tela principal do sistema.
 6. O caso de uso é encerrado.
 
-# UC03: Cadastrar Professor
+<br>
+
+## UC03: Cadastrar Professor
 
 **Descrição:** Este caso de uso permite aos técnicos cadastrarem um professor.
 
@@ -53,7 +69,9 @@
 6. O usuário é redirecionado para a tela principal do sistema.
 7. O caso de uso é encerrado.
 
-# UC04: Desconectar usuários
+<br>
+
+## UC04: Desconectar usuários
 
 **Descrição:** Este caso de uso permite aos usuários se desconectarem da conta.
 
@@ -68,7 +86,9 @@
 3. O usuário é redirecionado para a tela de autenticação.
 4. O caso de uso é encerrado.
 
-# UC05: Visualizar experimento
+<br>
+
+## UC05: Visualizar experimento
 
 **Descrição:** Este caso de uso permite ao aluno visualizar a imagem da webcam que está monitorando um de seus experimentos que está ocorrendo.
 
@@ -82,7 +102,9 @@
 2. Na tela de experimento, o sistema exibe a imagem da webcam transmitida.
 3. O caso de uso é encerrado.
 
-# UC06: Visualizar todos os experimentos
+<br>
+
+## UC06: Visualizar todos os experimentos
 
 **Descrição:** Este caso de uso permite ao professor visualizar as imagens das câmeras que estão monitorando todos os experimentos que estão acontecendo.
 
@@ -96,7 +118,9 @@
 2. Na tela de experimentos, o sistema exibe as imagens das câmeras transmitidas, de todos os experimentos que estão acontecendo no momento.
 3. O caso de uso é encerrado.
 
-# UC07: Iniciar aula de experimentos
+<br>
+
+## UC07: Iniciar aula de experimentos
 
 **Descrição:** Este caso de uso permite ao professor iniciar uma aula de experimentos.
 
@@ -111,7 +135,9 @@
 3. O sistema redireciona o professor para a tela de de experimentos.
 4. O caso de uso é encerrado.
 
-# UC08: Encerrar aula de experimentos
+<br>
+
+## UC08: Encerrar aula de experimentos
 
 **Descrição:** Este caso de uso permite ao professor encerrar uma aula de experimentos.
 
@@ -127,7 +153,9 @@
 4. O sistema redireciona o professor para a tela inicial.
 5. O caso de uso é encerrado.
 
-# UC09: Visualizar a lista de alunos
+<br>
+
+## UC09: Visualizar a lista de alunos
 
 **Descrição:** Este caso de uso permite ao professor ou técnico visualizar a lista de alunos.
 
@@ -141,7 +169,9 @@
 2. O sistema exibe todos o alunos cadastrados.
 3. O caso de uso é encerrado.
 
-# UC10: Pausar experimento
+<br>
+
+## UC10: Pausar experimento
 
 **Descrição:** Este caso de uso permite ao professor pausar um experimento que está ocorrendo.
 
@@ -157,7 +187,9 @@
 4. O sistema bloqueia a interação do aluno com o experimento.
 5. O caso de uso é encerrado.
 
-# UC11: Retomar experimento
+<br>
+
+## UC11: Retomar experimento
 
 **Descrição:** Este caso de uso permite ao professor retomar um experimento que foi pausado.
 
@@ -173,7 +205,9 @@
 4. O sistema desbloqueia a interação do aluno com o experimento.
 5. O caso de uso é encerrado.
 
-# UC12: Responder dúvida
+<br>
+
+## UC12: Responder dúvida
 
 **Descrição:** Este caso de uso permite ao professor responder uma dúvida cadastrada.
 
@@ -191,7 +225,9 @@
 6. O sistema notifica o autor da dúvida.
 7. O caso de uso é encerrado.
 
-# UC13: Cadastrar dúvida
+<br>
+
+## UC13: Cadastrar dúvida
 
 **Descrição:** Este caso de uso permite ao aluno cadastrar uma dúvida.
 
@@ -209,7 +245,9 @@
 6. O sistema notifica o professor.
 7. O caso de uso é encerrado.
 
-# UC14: Controlar equipamento experimental
+<br>
+
+## UC14: Controlar equipamento experimental
 
 **Descrição:** Este caso de uso permite ao aluno controlar o equipamento do experimento.
 
@@ -226,7 +264,9 @@
 5. O sistema  redireciona a ação para o equipamento.
 6. O caso de uso é encerrado.
 
-# UC15: Concluir experimento
+<br>
+
+## UC15: Concluir experimento
 
 **Descrição:** Este caso de uso permite ao aluno concluir um experimento.
 
@@ -240,9 +280,11 @@
 2. O aluno confirma.
 3. O sistema exibe uma mensagem informando a ação que o experimento foi concluído.
 4. O sistema redireciona o aluno para a tela inicial.
-5. O caso de uso é encerrado
+5. O caso de uso é encerrado.
 
-# UC16: Solicitar auxílio do técnico
+<br>
+
+## UC16: Solicitar auxílio do técnico
 
 **Descrição:** Este caso de uso permite ao aluno solicitar o auxílio de um técnico.
 
@@ -256,7 +298,9 @@
 2. O sistema notifica o técnico.
 3. O caso de uso é encerrado.
 
-# UC17: Regular equipamento
+<br>
+
+## UC17: Regular equipamento
 
 **Descrição:** Este caso de uso permite ao técnico regular o equipamento do experimento.
 
@@ -277,7 +321,9 @@
 9. O sistema começa a rotina de regulagem com os parâmetros informados pelo técnico.
 10. O caso de uso é encerrado.
 
-# UC18: Responder solicitação
+<br>
+
+## UC18: Responder solicitação
 
 **Descrição:** Este caso de uso permite ao técnico responder uma solicitação de auxílio feita por algum aluno.
 
@@ -292,7 +338,9 @@
 3. O sistema redireciona o técnico para a tela de bate papo com o autor da solicitação.
 4. O caso de uso é encerrado.
 
-# UC19: Pausa de emergência
+<br>
+
+## UC19: Pausa de emergência
 
 **Descrição:** Este caso de uso permite ao técnico pausar um experimento em caso de emergência.
 

@@ -19,7 +19,10 @@
 ### Introdução
 <div align="justify">
 
-Um Padrão de Projeto descreve uma solução comprovada para um problema recorrente e conhecido no desenvolvimento de software orientado a objetos.
+Padrões de projeto são soluções padronizadas para um problema recorrente no projeto de sistemas, que seja comprovadamente útil em um determinado contexto. São soluções que independem de tecnologia ou linguagem de programação e ajudam a promover uma boa prática de projeto.
+<br><br>
+
+Os Design Patterns codificam o conhecimento existente, de forma que possa ser reaplicado em contextos diferentes, além de aprimorar a comunicação entre desenvolvedores. Além disso, tornam projetos OO mais flexíveis, elegantes e reusáveis.
 <br><br>
 
 O Padrão GoF (Gang of Four) é um repertório de soluções e princípios que ajudam os desenvolvedores a criar software, e que são codificados em um formato estruturado, consistindo em: Nome; Problema que soluciona; e Solução do problema.
@@ -27,23 +30,44 @@ O Padrão GoF (Gang of Four) é um repertório de soluções e princípios que a
 
 Existem 23 padrões do GoF, divididos em quatro categorias: criacionais, estruturais e comportamentais, além dos Padrões de classe e Padrões de classe. Para a arquitetura do Software Gama Boyle Lab, foram selecionados os seguintes padrões, que se adequam melhor ao projeto:</div><br>
 
-- 
-- 
+- Proxy;
+- Builder;
 - 
 - 
 
 <div align="justify">Cada padrão será detalhado seguidamente.</div><br>
 
 
-#### **Resultados**
+#### **Proxy**
 <div align="justify">
 
 </div><br>
 
-#### **Resultados**
+<div align="center"><img src="../../imagens/padroes/proxy.png" width="600" ></div>
+<figcaption align='center'>
+    <b>Figura 1 - Tela do menu principal</b>
+</figcaption>
+<br>
+
+
+
+
+
+
+#### **Builder**
 <div align="justify">
 
 </div><br>
+
+
+<div align="center"><img src="../../imagens/padroes/builder.png" width="600" ></div>
+<figcaption align='center'>
+    <b>Figura 2 - Tela do menu principal</b>
+</figcaption>
+<br>
+
+
+
 
 #### **Resultados**
 <div align="justify">
