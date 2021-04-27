@@ -1,8 +1,5 @@
 # <center> DIAGRAMA DE CLASSES
 
-# <center> TEMPLATE
-
-
 ### Histórico de versão<br>
 
 |Data | Versão | Descrição | Autor(es)|
@@ -29,18 +26,13 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 
 ### **Diagrama de classe**
+<br>
 
-<!-- <div align="center"><img src="../../imagens/legenda-atividades.png" width="450" ></div><br>
+<div align="center"><img src="../../imagens/diagrama-classes.jpg" width="830" ></div><br>
 <figcaption align='center'>
-    <b>Figura 1 - Símbolos utilizados nos diagramas</b>
+    <b>Figura 1 - Diagrama de classes</b>
 </figcaption>
-<br> -->
-
-
-
-<div align="justify">
-
-</div><br>
+<br>
 
 
 ## Referências
