@@ -31,7 +31,5 @@ nav:
     - Diagrama de Pacotes: diagramas/diagrama-pacotes.md
     - Diagrama de Atividades: diagramas/diagrama-atividades.md
     - Diagrama de Estado: diagramas/diagrama-estado.md
-  - Padrões:
-    - Padrões GRASP: desenho/grasp.md
-    - Padrões GoF: desenho/gof.md
+  - GoF: desenho/gof.md
   - Testes: testes.md   
