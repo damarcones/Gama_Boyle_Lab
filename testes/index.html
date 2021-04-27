@@ -240,23 +240,8 @@
                 
                 
                 
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Padrões <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../desenho/grasp/">Padrões GRASP</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../desenho/gof/">Padrões GoF</a>
-</li>
-
-                        
-                        </ul>
+                    <li >
+                        <a href="../desenho/gof/">GoF</a>
                     </li>
                 
                 
@@ -296,16 +281,12 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#template"> TEMPLATE</a></li>
+        <li class="first-level active"><a href="#testes-de-software"> TESTES DE SOFTWARE</a></li>
             <li class="second-level"><a href="#historico-de-versao">Histórico de versão</a></li>
-                
-            <li class="second-level"><a href="#participantes">Participantes</a></li>
                 
             <li class="second-level"><a href="#introducao">Introdução</a></li>
                 
-            <li class="second-level"><a href="#metodologia">Metodologia</a></li>
-                
-            <li class="second-level"><a href="#resultados">Resultados</a></li>
+            <li class="second-level"><a href="#testes-previstos">Testes previstos</a></li>
                 
             <li class="second-level"><a href="#referencias">Referências</a></li>
                 
@@ -313,7 +294,7 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="template"><center> TEMPLATE</h1>
+<h1 id="testes-de-software"><center> TESTES DE SOFTWARE</h1>
 <h3 id="historico-de-versao">Histórico de versão<br></h3>
 <table>
 <thead>
@@ -326,40 +307,83 @@
 </thead>
 <tbody>
 <tr>
-<td>00.04.2021</td>
+<td>27.04.2021</td>
 <td>0.1</td>
 <td>Criação do documento</td>
-<td>Bruna Almeida<br>Damarcones Porto</td>
+<td>Bruna Almeida</td>
+</tr>
+<tr>
+<td>27.04.2021</td>
+<td>0.2</td>
+<td>Adição dos testes</td>
+<td>Bruna<br>João<br>Damarcones<br>Isadora<br>Matheus<br>Carlos</td>
 </tr>
 </tbody>
 </table>
-<h3 id="participantes">Participantes</h3>
-<ul>
-<li>Bruna Almeida</li>
-<li>Damarcones Porto</li>
-</ul>
-<p><br><br></p>
+<p><br></p>
 <h3 id="introducao">Introdução</h3>
-<div align="justify"> Falar do que se trata o documento (Se for o perfil do usuário, explique o que é o perfil de usuário)
-
-<br><br>
-
-</div>
-<p><br></p>
-<h3 id="metodologia">Metodologia</h3>
-<div align="justify"> Explicar como foi feito o doc (Por exemplo, o perfil de usuário será levantado através de brainstorming, então especifique que foi utilizado)
-Exemplo: A documentação e modelagem do padrão Singleton foi desenvolvida a partir de uma reunião com alguns integrantes, na plataforma Discord. Além disso, o diagrama UML foi desenvolvido pelos integrantes através da plataforma <a href="https://app.diagrams.net/">Draw.io</a>.
-</div>
-<p><br></p>
-<h3 id="resultados">Resultados</h3>
 <div align="justify">
-
-O documento em si
-
+O teste de software é um processo de checagem aplicado a programas de computador em fase de desenvolvimento. É essencial para que o produto final seja entregue ao cliente funcionando dentro das expectativas.
+<br><br>
+O teste de software geralmente é a última etapa na construção de um programa, visando checar o seu nível de qualidade. Os defeitos que um teste busca identificar incluem erro de compatibilidade, de algum algoritmo, de requisitos que não podem ser complementados, limitação de hardware etc.
 </div>
 <p><br></p>
+<h3 id="testes-previstos"><strong>Testes previstos</strong></h3>
+<table>
+<thead>
+<tr>
+<th align="left">Teste</th>
+<th align="left">Como funciona</th>
+<th align="left">Motivo da aplicação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Teste de Carga</td>
+<td align="left">Testa o software  sob as condições normais de uso. Por exemplo, com um número médio de usuários simultâneos.</td>
+<td align="left">Verificar o volume de acessos simultâneos ou usuários que o servidor suporta</td>
+</tr>
+<tr>
+<td align="left">Teste de Stress</td>
+<td align="left">Testa o software sob condições extremas de uso. Grande volume de transações e usuários simultâneos.</td>
+<td align="left">Verificar de os sistema suporta picos excessivos de carga em curtos períodos de tempo.</td>
+</tr>
+<tr>
+<td align="left">Teste de Estabilidade</td>
+<td align="left">Verifica se o tempo de resposta é o esperado no momento da utilização do software</td>
+<td align="left">Testa se o sistema se mantém funcionando de maneira satisfatória após um período de uso.</td>
+</tr>
+<tr>
+<td align="left">Teste de Usabilidade</td>
+<td align="left">Testa o desempenho, precisão, lembrança e a resposta emocional dos usuários após a utilização do sistema</td>
+<td align="left">Teste focado na experiência do usuário, consistência da interface, layout, acesso às funcionalidades etc.</td>
+</tr>
+<tr>
+<td align="left">Teste de Caixa Branca</td>
+<td align="left">Verifica com mais atenção cada etapa do código, analisa por qual caminho ocorre o fluxo de dados e verifica se há a passagem correta em todas as condições esperadas</td>
+<td align="left">Testa as decisões lógicas, métodos, algoritmos e estruturas de dados visando validar o código-fonte do sistema.</td>
+</tr>
+<tr>
+<td align="left">Teste de Segurança</td>
+<td align="left">Verifica a segurança do software no que diz respeito à proteção de ataques, como hackers e vírus, e na leitura de dados que são inseridos pelo usuário</td>
+<td align="left">Testa se o sistema garante a proteção dos dados</td>
+</tr>
+<tr>
+<td align="left">Teste de Performance</td>
+<td align="left">Verifica se os comandos respondem rapidamente e se os componentes não demoram muito a carregar</td>
+<td align="left">Testa o desempenho do software</td>
+</tr>
+<tr>
+<td align="left">Teste de Integração</td>
+<td align="left">Verifica um serviço completo, podendo incluir pacotes distintos, dependências e sistemas reais, como bancos de dados e serviços remotos</td>
+<td align="left">Testa uma funcionalidade ou transação completa de um sistema</td>
+</tr>
+</tbody>
+</table>
 <h2 id="referencias">Referências</h2>
-<p>DEVMEDIA, <strong>Padrão de Projeto Singleton em Java</strong> Disponível em <a href="https://www.devmedia.com.br/padrao-de-projeto-singleton-em-java/26392">https://www.devmedia.com.br/padrao-de-projeto-singleton-em-java/26392</a> Acesso em 1 de abril de 2021.</p></div>
+<p>TARGETTRUST, <strong>Os 13 principais tipos de Testes de Software!</strong>. Disponível em: <a href="https://www.devmedia.com.br/padrao-de-projeto-singleton-em-java/26392https://targettrust.com.br/blog/os-13-principais-tipos-de-testes-de-software/">targettrust.com.br/blog/os-13-principais-tipos-de-testes-de-software/</a>. Acesso em 27 de abril de 2021.</p>
+<p>CRONAPP, <strong>Entenda o que é e quais os principais tipos de teste de software</strong>. Disponível em: <a href="https://blog.cronapp.io/tipos-de-teste-de-software/">blog.cronapp.io/tipos-de-teste-de-software/</a>. Acesso em 27 de abril de 2021.</p>
+<p>ONE DAY TESTING, <strong>Teste de Software: Introdução, Conceitos Básicos e Tipos de Testes</strong>. Disponível em: <a href="https://blog.onedaytesting.com.br/teste-de-software/">blog.onedaytesting.com.br/teste-de-software/</a>. Acesso em 27 de abril de 2021.</p></div>
         
         
     </div>
