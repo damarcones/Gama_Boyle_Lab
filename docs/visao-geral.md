@@ -18,6 +18,15 @@ O software será uma aplicação web, que permitirá aos usuários controlar o G
 A aplicação será desenvolvida em Javascript, utilizando React para o Front-end e Node para o Back-end, uma linguagem amplamente utilizada, que possui uma biblioteca voltada ao controle de robôs, denominada <i>Johnny Five</i>, para integração direta com os Arduínos utilizados no equipamento. 
 <br><br></div>
 
+### **Diagrama de Blocos**
+<div align="justify">O diagrama de blocos a seguir mostra como se dará a comunicação geral entre componentes da aplicação e o equipamento físico de maneira resumida.<br><br></div>
+
+<div align="center"><img src="../../imagens/diagrama-blocos.jpg" width="830" ></div><br>
+<figcaption align='center'>
+    <b>Figura 1 - Diagrama de blocos</b>
+</figcaption>
+<br>
+
 
 ### **Identidade Visual**
 
