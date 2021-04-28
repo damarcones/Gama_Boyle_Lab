@@ -32,52 +32,37 @@ Existem 23 padrões do GoF, divididos em quatro categorias: criacionais, estrutu
 
 - Proxy;
 - Builder;
-- 
-- 
 
 <div align="justify">Cada padrão será detalhado seguidamente.</div><br>
 
 
 #### **Proxy**
-<div align="justify">
-
+<div align="justify">Proxy é um padrão de design estrutural que permite fornecer um substituto ou espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original.
+<br><br>
+A figura 1 demonstra a implementação do padrão GoF Proxy. No código do projeto, ele possibilita o lançamento de exceções em qualquer parte do código ao qual foi chamado.
 </div><br>
 
 <div align="center"><img src="../../imagens/padroes/proxy.png" width="600" ></div>
 <figcaption align='center'>
-    <b>Figura 1 - Tela do menu principal</b>
+    <b>Figura 1 - Implementação do padrão GoF Proxy</b>
 </figcaption>
 <br>
 
 
 
-
-
-
 #### **Builder**
-<div align="justify">
-
+<div align="justify">Builder é um padrão de design criacional que permite construir objetos complexos passo a passo. O padrão permite produzir diferentes tipos e representações de um objeto usando o mesmo código de construção.
+<br><br>
+O padrão Builder está implementado na figura 2, onde ocorre a criação de novos objetos do tipo experimento de forma separada.
 </div><br>
 
 
 <div align="center"><img src="../../imagens/padroes/builder.png" width="600" ></div>
 <figcaption align='center'>
-    <b>Figura 2 - Tela do menu principal</b>
+    <b>Figura 2 - Implementação do padrão GoF Builder</b>
 </figcaption>
 <br>
 
-
-
-
-#### **Resultados**
-<div align="justify">
-
-</div><br>
-
-#### **Resultados**
-<div align="justify">
-
-</div><br>
 
 
 ## Referências

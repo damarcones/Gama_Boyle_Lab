@@ -12,14 +12,14 @@
 
 <br><br>
   
-#### Performance
+#### **Performance**
 O sistema deve ter uma restrição de tempo de resposta e tempo de transmissão de dados.
 
-#### Disponibilidade
+#### **Disponibilidade**
 O sistema deve ficar disponível por todo o horário dedicado aos experimentos.
 
-#### Segurança
+#### **Segurança**
 O sistema deve contar com mecanismos de seguranças nos papéis dos usuários.
 
-#### Monitorável
+#### **Monitorável**
 O sistema deve ser facilmente monitorável em tempo real.
