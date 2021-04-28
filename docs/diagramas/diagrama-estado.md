@@ -17,6 +17,16 @@
 </div><br>
 
 ### Diagramas
-<p ><img src="/imagens/modelagem/Diagrama_estado_experimento.png"></p>
+
+
+<div align="center"><img src="../../imagens/modelagem/Diagrama_estado_experimento.png" width="830" ></div>
+<figcaption align='center'>
+    <b>Figura 1 - Diagrama de estado de experimentos.</b>
+</figcaption>
 <br>
-<p ><img src="/imagens/modelagem/Diagrama_estado_login.png"></p>
+
+<div align="center"><img src="../../imagens/modelagem/Diagrama_estado_login.png" width="830" ></div>
+<figcaption align='center'>
+    <b>Figura 1 - Diagrama de de estado login.</b>
+</figcaption>
+<br>
