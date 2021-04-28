@@ -22,7 +22,7 @@ A aplicação será desenvolvida em Javascript, utilizando React para o Front-en
 
 <div align="justify">O diagrama de blocos a seguir mostra como se dará a comunicação geral entre componentes da aplicação e o equipamento físico de maneira resumida.<br><br></div>
 
-<div align="center"><img src="../../imagens/diagrama_blocos.png" width="800" ></div>
+<div align="center"><img src="../imagens/diagrama_blocos.png" width="830" ></div>
 <figcaption align='center'>
     <b>Figura 1 - Diagrama de blocos</b>
 </figcaption>
@@ -33,9 +33,9 @@ A aplicação será desenvolvida em Javascript, utilizando React para o Front-en
 
 <div align="justify">Uma identidade visual foi desenvolvida para guiar o design da aplicação.<br><br></div>
 
-<object data="../../imagens/identidade-Gama-Boyle-Lab.pdf" type="application/pdf" width="820px" height="485px">
-<embed src="../../imagens/identidade-Gama-Boyle-Lab.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../../imagens/identidade-Gama-Boyle-Lab.pdf">Download PDF</a>.</p>
+<object data="../imagens/identidade-Gama-Boyle-Lab.pdf" type="application/pdf" width="820px" height="485px">
+<embed src="../imagens/identidade-Gama-Boyle-Lab.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../imagens/identidade-Gama-Boyle-Lab.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 <br><br>
