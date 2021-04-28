@@ -63,13 +63,12 @@ Rich Pictures                           |14/04/2021 |25/04/2021 |Damarcones|
 Plano de gerenciamento de riscos        |14/04/2021 |24/04/2021 |Bruna|
 Estimativas                             |14/04/2021 |25/04/2021 |João Pedro|
 Casos de uso                            |14/04/2021 |24/04/2021 |Rodrigo|
-Diagrama de casos de uso                |14/04/2021 |--/04/2021 |Rodrigo|
-NFR                                     |14/04/2021 |--/04/2021 |Rodrigo|
-Diagrama de Classes                     |14/04/2021 |--/04/2021 |Bruna, Damarcones, João Pedro|
-Diagrama de Entidade Relacionamento     |26/04/2021 |--/04/2021 | -- |
-Diagrama de Pacotes                     |14/04/2021 |--/04/2021 |Matheus|
+NFR                                     |14/04/2021 |27/04/2021 |Rodrigo|
+Diagrama de Classes                     |14/04/2021 |27/04/2021 |Bruna, Damarcones, João Pedro|
+Diagrama de Entidade Relacionamento     |26/04/2021 |28/04/2021 |Isadora, Rodrigo |
+Diagrama de Pacotes                     |14/04/2021 |27/04/2021 |Matheus|
 Diagrama de Atividades                  |14/04/2021 |26/04/2021 |Bruna e Damarcones|
-Diagrama de Estado                      |14/04/2021 |--/04/2021 |Carlos|
-Padrões GoF e GRASP                     |14/04/2021 |--/04/2021 |Bruna e Damarcones|
+Diagrama de Estado                      |14/04/2021 |27/04/2021 |Carlos|
+Padrões GoF                             |14/04/2021 |27/04/2021 |Bruna e Damarcones|
 Ponto de vista de Software              |25/04/2021 |25/04/2021 |Bruna, Damarcones, João Pedro|
-Descrição de Software                   |25/04/2021 |--/04/2021 |Bruna, Damarcones, João Pedro|
+Descrição de Software                   |25/04/2021 |27/04/2021 |Geral|
