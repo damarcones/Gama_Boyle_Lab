@@ -19,9 +19,10 @@ A aplicação será desenvolvida em Javascript, utilizando React para o Front-en
 <br><br></div>
 
 ### **Diagrama de Blocos**
+
 <div align="justify">O diagrama de blocos a seguir mostra como se dará a comunicação geral entre componentes da aplicação e o equipamento físico de maneira resumida.<br><br></div>
 
-<div align="center"><img src="../../imagens/diagrama_blocos.png" width="830" ></div>
+<div align="center"><img src="../../imagens/diagrama_blocos.png" width="800" ></div>
 <figcaption align='center'>
     <b>Figura 1 - Diagrama de blocos</b>
 </figcaption>
