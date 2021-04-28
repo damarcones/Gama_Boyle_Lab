@@ -27,7 +27,6 @@ nav:
     - Casos de Uso: requisitos/casos-uso.md
     - Diagramas de Casos de Uso: diagramas/diagrama-casos-uso.md
     - Diagrama de Classes: diagramas/diagrama-classes.md
-    - Diagrama de Entidade Relacionamento: diagramas/diagrama-componentes.md
     - Diagrama de Pacotes: diagramas/diagrama-pacotes.md
     - Diagrama de Atividades: diagramas/diagrama-atividades.md
     - Diagrama de Estado: diagramas/diagrama-estado.md
