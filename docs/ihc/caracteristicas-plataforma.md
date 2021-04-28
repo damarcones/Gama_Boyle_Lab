@@ -7,20 +7,27 @@
 | 19.04.2021 | 0.1 | Criação do documento |Carlos Eduardo|
 | 25.04.2021 | 0.1.1| Modificação da Introdução| Carlos Eduardo|
 
+### Participantes
+
+* Carlos Eduardo
+
+<br>
+
+
 ### Introdução
-<div align="justify"> A aplicação desenvolvido é uma plataforma web do tipo Portal, onde os usuários podem acompanhar experimentos ao vivo realizados no laboratório de química experimental da UnB (Universidade de Brasília), assim como interagir e controlar a bancada de experimentos. Além disso, é possível interagir através de um chat com outros usuários. Este documento tem como objetivo mostrar as principais características do projeto Gama Boyle Lab.
+<div align="justify"> A aplicação desenvolvida é uma plataforma web do tipo Portal, onde os usuários podem acompanhar experimentos ao vivo realizados no laboratório de química experimental da UnB (Universidade de Brasília), assim como interagir e controlar a bancada de experimentos. Além disso, é possível interagir através de um chat com outros usuários. Este documento tem como objetivo mostrar as principais características do projeto Gama Boyle Lab.
 </div><br>
 
-### Compatibilidade
-<div align="justify"> A aplicação é compatível com os navegadores web mais populares disponíveis para Mac, Windows e Linux, o Google Chrome e Mozilla Firefox.
+#### **Compatibilidade**
+<div align="justify"> A aplicação é compatível com os navegadores web mais populares disponíveis para Mac, Windows e Linux: o Google Chrome e Mozilla Firefox.
 </div><br>
 
-### Funcionalidades
+#### **Funcionalidades**
 <div align="justify"> O sistema conta com serviços que possibilitem que o usuário acompanhe, administre e controle experimentos de química experimental de maneira remota, além de interagir com um chat. Sendo assim o usuário tem acesso a: </div>
-- Transmissão ao vivo de experimentos
-- Serviço de login e logout
-- Interação com bancada de experimentos
-- Interação com outros usuários através de um chat
+- Transmissão ao vivo de experimentos;
+- Serviço de login e logout;
+- Interação com bancada de experimentos;
+- Interação com outros usuários através de um chat.
 <br>
 
 ## Referências
