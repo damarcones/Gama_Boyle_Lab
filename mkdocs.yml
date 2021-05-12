@@ -21,7 +21,9 @@ nav:
     - RichPictures: requisitos/rich-pictures.md
     - Plano de gerenciamento de riscos: requisitos/plano-riscos.md
     - Estimativas: requisitos/estimativas.md
-  - Requisitos: requisitos/requisitos.md
+  - Requisitos: 
+    - Requisitos: requisitos/requisitos.md
+    - Backlog: requisitos/backlog.md
   - Modelagem:
     - NFR: requisitos/nfr.md
     - Casos de Uso: requisitos/casos-uso.md
