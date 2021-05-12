@@ -33,6 +33,11 @@ Telas com a cor branca no fundo são mostradas para mais de um tipo de usuário,
 
 ### Protótipo de Alta Fidelidade
 
+<div align="justify"> 
+    Clique na imagem abaixo para acessar o protótipo de alta fidelidade.
+    <br><br>
+</div>
+
 [![](../../imagens/prototipo/prototipo-alta.png)](https://www.figma.com/proto/9ZSWFd9hgAQ4QqAFEK2ids/Prot%C3%B3tipo-PI1?node-id=24%3A82&scaling=min-zoom&page-id=0%3A1)
 
 ## Referências

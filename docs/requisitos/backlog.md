@@ -5,6 +5,7 @@
 |Data | Versão | Descrição | Autor(es)|
 | -- | -- | -- | -- |
 | 12.05.2021 | 0.1 | Criação do documento |João Pedro Chaves|
+| 12.05.2021 | 0.2 | Correção de histórias de usuário |João Pedro Chaves|
 
 ### Participantes
 
@@ -19,24 +20,19 @@
 
 ### Backlog
 
-• Eu como usuário desejo fazer login e logout no sistema. <br>
-• Eu como aluno desejo ver o experimento sendo realizado por meio de uma webcam. <br>
-• Eu como professor desejo ter acesso às imagens de todos os experimentos sendo realizados simultaneamente. <br>
-• Eu como professor desejo iniciar a aula de experimentos. <br>
-• Eu como professor desejo encerrar a aula de experimentos. <br>
-• Eu como técnico desejo regular o equipamento. <br>
-• Eu como aluno desejo comandar todo o equipamento. <br>
-• Eu como aluno desejo concluir um experimento antes de realizar o logout. <br>
-• Eu como aluno desejo solicitar o auxílio do técnico durante o experimento. <br>
-• Eu como aluno desejo contatar o professor para sanar dúvidas. <br>
-• Eu como professor desejo responder as dúvidas dos alunos. <br>
-• Eu como técnico desejo responder solicitações. <br>
-• Eu como técnico desejo pausar o funcionamento do equipamento. <br>
-• Eu como professor desejo pausar o experimento. <br>
-• Eu como professor desejo retomar o experimento. <br>
-• Eu como aluno desejo me cadastrar no sistema. <br>
-• Eu como técnico desejo cadastrar professores. <br>
-• Eu como professor desejo visualizar a lista de usuários. <br>
-• Eu como técnico desejo visualizar a lista de usuários. <br>
+• Eu, como aluno, desejo me cadastrar no sistema. <br>
+• Eu, como usuário, desejo fazer login e logout no sistema. <br>
+• Eu, como aluno, desejo ver em tempo real a imagem dos experimentos sendo executados, sem a opção de salvar as gravações para serem assistidas depois. <br>
+• Eu, como professor ou técnico, desejo ter acesso às imagens em tempo real de todos os experimentos sendo realizados. <br>
+• Eu, como professor, desejo iniciar e encerrar a aula de experimentos. <br>
+• Eu, como técnico, desejo regular o equipamento pela interface. <br>
+• Eu, como aluno, desejo controlar todo o equipamento. <br>
+• Eu, como aluno, desejo concluir um experimento antes de realizar o logout. <br>
+• Eu, como aluno, desejo solicitar o auxílio do técnico ou professor durante o experimento. <br>
+• Eu, como professor ou técnico, desejo responder solicitações e dúvidas. <br>
+• Eu, como professor ou técnico, desejo pausar e retomar o funcionamento do equipamento. <br>
+• Eu, como técnico, desejo cadastrar professores no sistema. <br>
+• Eu, como professor ou técnico, desejo visualizar lista de usuários cadastrados e usuários online. <br>
+• Eu, como usuário, desejo acessar o perfil de usuário. <br>
 
 

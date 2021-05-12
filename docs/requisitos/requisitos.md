@@ -5,8 +5,9 @@
 |Data | Versão | Descrição | Autor(es)|
 | -- | -- | -- | -- |
 | 24.04.2021 | 0.1 | Criação do documento |Isadora Galvão|
-| 24.04.2021 | 0.2 | Atulizações no documento |Isadora Galvão|
-| 27.04.2021 | 0.3 | Atulizaçãp dos requisitos |Bruna Almeida|
+| 24.04.2021 | 0.2 | Atualizações no documento |Isadora Galvão|
+| 27.04.2021 | 0.3 | Atualização dos requisitos |Bruna Almeida|
+| 12.05.2021 | 0.4 | Correção dos requisitos |João Pedro Chaves|
 
 ### Participantes
 
@@ -25,23 +26,20 @@ Os requisitos foram levantados atrvavés de um brainstorming entre os integrante
 
 |Número|Requisito|
 |:-----|:--------|
-|01|O sistema deve permitir login e logout dos seus usuários|
-|02|O aluno poderá ver o experimento sendo realizado por uma webcam acoplada na estrutura|
-|03|O professor pode ter acesso às imagens de todos os experimentos sendo realizados simultaneamente|
-|04|O professor pode iniciar e encerrar a aula de experimentos|
-|05|O técnico pode regular o equipamento pela interface|
-|06|O aluno pode comandar todo o equipamento|
-|07|O aluno deve ser capaz de concluir um experimento antes de realizar o logout|
-|08|O aluno pode solicitar auxílio do técnico durante o experimento|
-|09|O aluno pode contatar o professor para sanar dúvidas|
-|10|O professor pode responder as dúvidas dos alunos|
-|11|O técnico poderá responder solicitações dos alunos|
-|12|O técnico pode pausar e retomar o funcionamento do equipamento em caso de emergência|
-|13|O professor pode pausar e retomar o experimento|
-|14|O aluno pode se cadastrar no sistema|
-|15|Somente o técnico pode cadastrar professores|
-|16|O professor e o técnico podem visualizar a lista de usuários cadastrados e usuários online|
-|17|Os usuários devem ter acesso ao seu perfil|
+|01|Login e logout de usuários|
+|02|Transmitir em tempo real a imagem dos experimentos sendo executados, sem a opção de salvar as gravações para serem assistidas depois|
+|03|Professor e técnico acessam imagens em tempo real de todos os experimentos sendo realizados|
+|04|Professor inicia e encerra a aula de experimentos|
+|05|Técnico regula o equipamento pela interface|
+|06|Aluno controla o equipamento|
+|07|Aluno conclui experimento|
+|08|Aluno solicita auxílio do técnico ou professor durante o experimento|
+|09|Professor e técnico respondem solicitações e dúvidas|
+|10|Professor e técnico pausam e retomam o funcionamento do equipamento|
+|11|Aluno se cadastra no sistema|
+|12|Somente o técnico cadastra professores no sistema|
+|13|Professor e técnico visualizam lista de usuários cadastrados e usuários online|
+|14|Acessar perfil de usuário|
 
 <br>
 
