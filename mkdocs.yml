@@ -25,6 +25,7 @@ nav:
   - Modelagem:
     - NFR: requisitos/nfr.md
     - Casos de Uso: requisitos/casos-uso.md
+    - Diagrama de Casos de Uso: diagramas/diagrama-casos-uso.md
     - Diagrama de Classes: diagramas/diagrama-classes.md
     - Diagramas de Entidade Relacionamento: diagramas/diagrama-entidade.md
     - Diagrama de Pacotes: diagramas/diagrama-pacotes.md
