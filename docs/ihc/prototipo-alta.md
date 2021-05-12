@@ -6,6 +6,7 @@
 |Data | Versão | Descrição | Autor(es)|
 | -- | -- | -- | -- |
 | 24.04.2021 | 0.1 | Criação do documento | João Pedro Chaves, Damarcones Porto, Bruna Almeida |
+| 12.05.2021 | 0.2 | Adição das informações gerais | João Pedro Chaves |
 
 ### Participantes
 
@@ -21,6 +22,14 @@
 
 A criação do protótipo de alta fidelidade foi realizada utilizando o software Figma devido a facilidade na utilização da ferramenta e pela diversidade de funcionalidades presentes no mesmo. O protótipo tem como objetivo abranger, além da interface do produto em termos visuais e estéticos, os aspectos da experiência do usuário em termos de interações, fluxo e comportamento.
 </div>
+
+### Informações Gerais
+
+<div align="justify"> Os modelos das páginas foram divididos de acordo com o tipo de usuário : técnico, professor e aluno, as telas com a cor de fundo sendo azul escuro são as que o professor terá acesso, e as cores azul claro e verde são relacionadas ao técnico e aos alunos, respectivamente. 
+<br><br>
+Telas com a cor branca no fundo são mostradas para mais de um tipo de usuário, como a tela de login que todos têm acesso. A telas menores são modais que serão mostradas para confirmação de ações, tais como encerrar um experimento. 
+</div>
+
 
 ### Protótipo de Alta Fidelidade
 
