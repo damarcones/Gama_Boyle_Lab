@@ -177,8 +177,23 @@
                 
                 
                 
-                    <li >
-                        <a href="../requisitos/requisitos/">Requisitos</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Requisitos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../requisitos/requisitos/">Requisitos</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../requisitos/backlog/">Backlog</a>
+</li>
+
+                        
+                        </ul>
                     </li>
                 
                 
@@ -196,6 +211,12 @@
                             
 <li >
     <a href="../requisitos/casos-uso/">Casos de Uso</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../diagramas/diagrama-casos-uso/">Diagrama de Casos de Uso</a>
 </li>
 
                         
@@ -226,6 +247,12 @@
                             
 <li >
     <a href="../diagramas/diagrama-estado/">Diagrama de Estado</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../diagramas/diagrama-arquitetura-funcional/">Diagrama de Arquitetura Funcional</a>
 </li>
 
                         
@@ -309,6 +336,12 @@
 <td>Bruna Almeida<br>Damarcones Porto</td>
 </tr>
 <tr>
+<td>11.05.2021</td>
+<td>0.2</td>
+<td>Adição de introdução ao diagrama de blocos</td>
+<td>Carlos Eduardo<br>Isadora Galvão</td>
+</tr>
+<tr>
 <td><br><br></td>
 <td></td>
 <td></td>
@@ -327,6 +360,8 @@ A aplicação será desenvolvida em Javascript, utilizando React para o Front-en
 <br><br></div>
 
 <h3 id="diagrama-de-blocos"><strong>Diagrama de Blocos</strong></h3>
+<div align="justify">As ações do usuário no navegador web serão interpretadas pelo React Native, que podem ser do tipo iteratividade que não precisam de ação externa ou que precisam de acesso ao servidor. As ações que precisam consultar o servidor (HttpRequest) serão enviadas utilizando o protocolo HTTP e serão recebidas pelo Node.js. Assim que a requisição for mapeada para o módulo que possui as informações requisitadas este módulo será responsável por se comunicar com o banco de dados PostgreSQL. Dependendo da requisição feita o Node.js se comunica com o Arduino Mega através do Johnny Five que funciona como uma API, enviando instruções e recebendo informações da bancada. Com as informações em mãos é gerado um objeto HttpResponse pelo Node.js que será enviado ao React Native.<br><br></div>
+
 <div align="justify">O diagrama de blocos a seguir mostra como se dará a comunicação geral entre componentes da aplicação e o equipamento físico de maneira resumida.<br><br></div>
 
 <div align="center"><img src="../imagens/diagrama_blocos.png" width="830" ></div>
