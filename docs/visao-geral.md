@@ -5,6 +5,7 @@
 |Data | Versão | Descrição | Autor(es)|
 | -- | -- | -- | -- |
 | 23.04.2021 | 0.1 | Criação do documento | Bruna Almeida<br>Damarcones Porto |
+| 11.05.2021 | 0.2 | Adição de introdução ao diagrama de blocos | Carlos Eduardo<br>Isadora Galvão|
 <br><br>
 
 ### **Visão Geral**
@@ -19,6 +20,8 @@ A aplicação será desenvolvida em Javascript, utilizando React para o Front-en
 <br><br></div>
 
 ### **Diagrama de Blocos**
+
+<div align="justify">As ações do usuário no navegador web serão interpretadas pelo React Native, que podem ser do tipo iteratividade que não precisam de ação externa ou que precisam de acesso ao servidor. As ações que precisam consultar o servidor (HttpRequest) serão enviadas utilizando o protocolo HTTP e serão recebidas pelo Node.js. Assim que a requisição for mapeada para o módulo que possui as informações requisitadas este módulo será responsável por se comunicar com o banco de dados PostgreSQL. Dependendo da requisição feita o Node.js se comunica com o Arduino Mega através do Johnny Five que funciona como uma API, enviando instruções e recebendo informações da bancada. Com as informações em mãos é gerado um objeto HttpResponse pelo Node.js que será enviado ao React Native.<br><br></div>
 
 <div align="justify">O diagrama de blocos a seguir mostra como se dará a comunicação geral entre componentes da aplicação e o equipamento físico de maneira resumida.<br><br></div>
 

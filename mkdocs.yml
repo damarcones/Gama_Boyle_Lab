@@ -31,5 +31,6 @@ nav:
     - Diagrama de Pacotes: diagramas/diagrama-pacotes.md
     - Diagrama de Atividades: diagramas/diagrama-atividades.md
     - Diagrama de Estado: diagramas/diagrama-estado.md
+    - Diagrama de Arquitetura Funcional: diagramas/diagrama-arquitetura-funcional.md
   - GoF: desenho/gof.md
   - Testes: testes.md   
