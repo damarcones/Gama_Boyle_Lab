@@ -18,7 +18,7 @@
 O Diagrama BPMN visa mostrar ações feitas por determinados autores, em nosso diagrama mostramos as ações comuns a todos os usuários e aquelas onde apenas determinados usuários tem acesso colocamos na lateral da própria tarefa. Em sumo todas as telas serão mostradas aos usuários pelo sistema e assim diversas tarefas poderão ser feitas em paralelo, com o final comum encerramento do experimento/aula.
 </div>
 
-<div align="center"><img src="../../imagens/modelagem/Diagrama BPMW (2).png"></div><br>
+<div align="center"><img src="../../imagens/modelagem/Diagrama BPMW (2).png" width="900"></div><br>
 <figcaption align='center'>
     <b>Figura 1 - Diagrama BPMN</b>
 </figcaption>
