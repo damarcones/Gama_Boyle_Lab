@@ -34,5 +34,6 @@ nav:
     - Diagrama de Atividades: diagramas/diagrama-atividades.md
     - Diagrama de Estado: diagramas/diagrama-estado.md
     - Diagrama de Arquitetura Funcional: diagramas/diagrama-arquitetura-funcional.md
+    - Diagrama BPMN: diagramas/diagrama-BPMN.md
   - GoF: desenho/gof.md
   - Testes: testes.md   
