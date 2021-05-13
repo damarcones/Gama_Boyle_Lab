@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>GoF - Home</title>
+    <title>Diagrama BPMN - Home</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -198,7 +198,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -216,49 +216,49 @@
                         
                             
 <li >
-    <a href="../../diagramas/diagrama-casos-uso/">Diagrama de Casos de Uso</a>
+    <a href="../diagrama-casos-uso/">Diagrama de Casos de Uso</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../diagramas/diagrama-classes/">Diagrama de Classes</a>
+    <a href="../diagrama-classes/">Diagrama de Classes</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../diagramas/diagrama-entidade/">Diagramas de Entidade Relacionamento</a>
+    <a href="../diagrama-entidade/">Diagramas de Entidade Relacionamento</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../diagramas/diagrama-pacotes/">Diagrama de Pacotes</a>
+    <a href="../diagrama-pacotes/">Diagrama de Pacotes</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../diagramas/diagrama-atividades/">Diagrama de Atividades</a>
+    <a href="../diagrama-atividades/">Diagrama de Atividades</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../diagramas/diagrama-estado/">Diagrama de Estado</a>
+    <a href="../diagrama-estado/">Diagrama de Estado</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../diagramas/diagrama-arquitetura-funcional/">Diagrama de Arquitetura Funcional</a>
+    <a href="../diagrama-arquitetura-funcional/">Diagrama de Arquitetura Funcional</a>
 </li>
 
                         
                             
-<li >
-    <a href="../../diagramas/diagrama-BPMN/">Diagrama BPMN</a>
+<li class="active">
+    <a href="./">Diagrama BPMN</a>
 </li>
 
                         
@@ -267,8 +267,8 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">GoF</a>
+                    <li >
+                        <a href="../../desenho/gof/">GoF</a>
                     </li>
                 
                 
@@ -289,12 +289,12 @@
 
                 <!--
                     <li >
-                        <a rel="prev" href="../../diagramas/diagrama-BPMN/">
+                        <a rel="prev" href="../diagrama-arquitetura-funcional/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../../testes/">
+                        <a rel="next" href="../../desenho/gof/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li> -->
@@ -308,22 +308,20 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#padroes-gof"> PADRÕES GoF</a></li>
+        <li class="first-level active"><a href="#diagrama-bpmn"> DIAGRAMA BPMN</a></li>
             <li class="second-level"><a href="#historico-de-versao">Histórico de versão</a></li>
                 
             <li class="second-level"><a href="#participantes">Participantes</a></li>
                 
             <li class="second-level"><a href="#introducao">Introdução</a></li>
                 
-                <li class="third-level"><a href="#proxy">Proxy</a></li>
-                <li class="third-level"><a href="#builder">Builder</a></li>
             <li class="second-level"><a href="#referencias">Referências</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="padroes-gof"><center> PADRÕES GoF</h1>
+<h1 id="diagrama-bpmn"><center> DIAGRAMA BPMN</h1>
 <h3 id="historico-de-versao">Histórico de versão<br></h3>
 <table>
 <thead>
@@ -336,72 +334,32 @@
 </thead>
 <tbody>
 <tr>
-<td>23.04.2021</td>
-<td>0.1</td>
+<td>12.05.2021</td>
+<td>1.0</td>
 <td>Criação do documento</td>
-<td>Bruna Almeida<br>Damarcones Porto</td>
-</tr>
-<tr>
-<td>25.04.2021</td>
-<td>0.1</td>
-<td>Adição da introdução</td>
-<td>Bruna Almeida<br>Damarcones Porto</td>
+<td>Matheus Calixto Vaz Pinheiro</td>
 </tr>
 </tbody>
 </table>
 <h3 id="participantes">Participantes</h3>
 <ul>
-<li>Bruna Almeida</li>
-<li>Damarcones Porto</li>
+<li>Matheus Calixto Vaz Pinheiro</li>
 </ul>
 <p><br><br></p>
 <h3 id="introducao">Introdução</h3>
-<div align="justify">
-
-Padrões de projeto são soluções padronizadas para um problema recorrente no projeto de sistemas, que seja comprovadamente útil em um determinado contexto. São soluções que independem de tecnologia ou linguagem de programação e ajudam a promover uma boa prática de projeto.
-<br><br>
-
-Os Design Patterns codificam o conhecimento existente, de forma que possa ser reaplicado em contextos diferentes, além de aprimorar a comunicação entre desenvolvedores. Além disso, tornam projetos OO mais flexíveis, elegantes e reusáveis.
-<br><br>
-
-O Padrão GoF (Gang of Four) é um repertório de soluções e princípios que ajudam os desenvolvedores a criar software, e que são codificados em um formato estruturado, consistindo em: Nome; Problema que soluciona; e Solução do problema.
-<br><br>
-
-Existem 23 padrões do GoF, divididos em quatro categorias: criacionais, estruturais e comportamentais, além dos Padrões de classe e Padrões de classe. Para a arquitetura do Software Gama Boyle Lab, foram selecionados os seguintes padrões, que se adequam melhor ao projeto:</div>
-<p><br></p>
-<ul>
-<li>Proxy;</li>
-<li>Builder;</li>
-</ul>
-<div align="justify">Cada padrão será detalhado seguidamente.</div>
-<p><br></p>
-<h4 id="proxy"><strong>Proxy</strong></h4>
-<div align="justify">Proxy é um padrão de design estrutural que permite fornecer um substituto ou espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original.
-<br><br>
-A figura 1 demonstra a implementação do padrão GoF Proxy. No código do projeto, ele possibilita o lançamento de exceções em qualquer parte do código ao qual foi chamado.
+<div align="Justify">
+O Diagrama BPMN visa mostrar ações feitas por determinados autores, em nosso diagrama mostramos as ações comuns a todos os usuários e aquelas onde apenas determinados usuários tem acesso colocamos na lateral da própria tarefa. Em sumo todas as telas serão mostradas aos usuários pelo sistema e assim diversas tarefas poderão ser feitas em paralelo, com o final comum encerramento do experimento/aula.
 </div>
+
+<div align="center"><img src="../../imagens/modelagem/Diagrama BPMW (2).png"></div>
 <p><br></p>
-<div align="center"><img src="../../imagens/padroes/proxy.png" width="600" ></div>
 <figcaption align='center'>
-    <b>Figura 1 - Implementação do padrão GoF Proxy</b>
-</figcaption>
-<p><br></p>
-<h4 id="builder"><strong>Builder</strong></h4>
-<div align="justify">Builder é um padrão de design criacional que permite construir objetos complexos passo a passo. O padrão permite produzir diferentes tipos e representações de um objeto usando o mesmo código de construção.
-<br><br>
-O padrão Builder está implementado na figura 2, onde ocorre a criação de novos objetos do tipo experimento de forma separada.
-</div>
-<p><br></p>
-<div align="center"><img src="../../imagens/padroes/builder.png" width="600" ></div>
-<figcaption align='center'>
-    <b>Figura 2 - Implementação do padrão GoF Builder</b>
+    <b>Figura 1 - Diagrama BPMN</b>
 </figcaption>
 <p><br></p>
 <h2 id="referencias">Referências</h2>
-<p>DEVMEDIA, <strong>Design Patterns: Padrões “GoF”</strong>. Disponível em: <a href="https://www.devmedia.com.br/design-patterns-padroes-gof/16781">devmedia.com.br/design-patterns-padroes-gof/16781</a>. Acesso em 24 de abril de 2021.</p>
-<p>FACOM, <strong>Padrões GoF</strong>. Disponível em: <a href="http://www.facom.ufu.br/~bacala/ESOF/05b-Padr%C3%B5es%20Gof.pdf">facom.ufu.br/~bacala/ESOF/05b-Padr%C3%B5es%20Gof.pdf</a>. Acesso em 24 de abril de 2021.</p>
-<p>MEDIUM, <strong>Design Patterns — Parte 2 — Os Padrões do GOF</strong>. Disponível em: <a href="https://medium.com/xp-inc/desing-patterns-parte-2-2a61878846d">medium.com/xp-inc/desing-patterns-parte-2-2a61878846d</a>. Acesso em 24 de abril de 2021.</p>
-<p>BRIZENO, <strong>Classificação dos Padrões de Projeto GoF</strong>. Disponível em: <a href="https://brizeno.wordpress.com/2011/12/12/classificacao-dos-padroes-de-projeto-gof/">brizeno.wordpress.com/2011/12/12/classificacao-dos-padroes-de-projeto-gof/</a>. Acesso em 24 de abril de 2021.</p></div>
+<p>HEFLO, <strong>Notação BPMN</strong>. Disponível em:<a href="https://www.heflo.com/pt-br/bpm/notacao-bpmn/">HEFLO-notação-BPMN</a>. Acesso em 12 de maio de 2021.</p>
+<p>HEFLO, <strong>Exemplos de diagramas BPMN</strong>. Disponível em:<a href="https://www.heflo.com/pt-br/modelagem-processos/exemplos-de-diagramas-bpmn/">HEFLO-Exemplos-BPMN</a>. Acesso em 12 de maio de 2021.</p></div>
         
         
     </div>
